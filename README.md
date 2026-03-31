@@ -1,1 +1,1 @@
-# genai4bio-project
+# scAlphaGenome
