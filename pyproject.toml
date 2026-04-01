@@ -1,0 +1,20 @@
+[project]
+name = "genai4bio-project"
+version = "0.1.0"
+description = "Cell type-specific gene expression prediction integrating AlphaGenome with single-cell data"
+requires-python = ">=3.13"
+dependencies = [
+    "alphagenome-research",
+    "google-cloud-storage>=2.0",
+    "jax[cpu]",
+    "pyarrow>=23.0.1",
+    "scanpy>=1.12",
+]
+
+[tool.uv.sources]
+alphagenome-research = { git = "https://github.com/google-deepmind/alphagenome_research.git" }
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+]
