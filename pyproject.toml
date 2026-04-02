@@ -7,7 +7,6 @@ dependencies = [
     "aiohttp>=3.9",
     "alphagenome-research",
     "google-cloud-storage>=2.0",
-    "jax[cpu]",
     "pyarrow>=23.0.1",
     "requests>=2.32",
     "scanpy>=1.12",

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Google Cloud Platform
+export GCP_PROJECT="scalphagenome"
+export GCS_BUCKET="scalphagenome-data"
+
+# AlphaGenome
+export ALPHAGENOME_API_KEY=""

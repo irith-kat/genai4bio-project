@@ -7,7 +7,13 @@
 uv sync
 ```
 
-**2. Load environment variables**
+**2. Set up environment variables**
+
+Copy the template to your own `env` file:
+```bash
+cp env-template env
+```
+Do not edit pre-filled variables. Fill in any empty variables (e.g., personal API keys), then run:
 ```bash
 source env
 ```
@@ -50,4 +56,4 @@ uv run python3 preprocess.py \
     --gcs
 ```
 
-Output is saved locally to `data/processed/` and uploaded to `gs://scalphagenome-data/preprocessed/`. Omit `--gcs` to skip the upload.
+Output is saved locally to `data/processed/` and uploaded to `gs://scalphagenome-data/preprocessed/`. Omit `--gcs` to skip the Cloud upload.
