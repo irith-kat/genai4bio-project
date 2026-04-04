@@ -56,16 +56,15 @@ def supported_cell_types(model_metadata):
     with open(f'{METADATA_DIR}/{SUPPORTED_CELL_TYPES}', 'w') as f:
         f.write('\n'.join(supported_cell_types)) # Saved as .txt file
 
-def cell_type_map(organs, assay):
+def cell_type_map(organ, assay):
     # Cell ontology mapping from ID to type from given preprocessed scRNA-seq dataset
-    for organ in organs:
-        df = pd.read_parquet(f'{DATASET_DIR}/{organ}_{assay}_pseudobulk.parquet') # Read pseudobulk data (cell type x gene)
-        df = df.reset_index()
-        cell_type_map = df[['cell_ontology_class', 'cell_ontology_id']].copy().drop_duplicates()
-        cell_type_map.set_index('cell_ontology_id', inplace=True)
-        cell_type_map = cell_type_map['cell_ontology_class'].to_dict()
-        with open(f'{METADATA_DIR}/{organ}_{assay}_{CELL_TYPE_MAP}', 'w') as f:
-            json.dump(cell_type_map, f) # Saved as .json file
+    df = pd.read_parquet(f'{DATASET_DIR}/{organ}_{assay}_pseudobulk.parquet') # Read pseudobulk data (cell type x gene)
+    df = df.reset_index()
+    cell_type_map = df[['cell_ontology_class', 'cell_ontology_id']].copy().drop_duplicates()
+    cell_type_map.set_index('cell_ontology_id', inplace=True)
+    cell_type_map = cell_type_map['cell_ontology_class'].to_dict()
+    with open(f'{METADATA_DIR}/{organ}_{assay}_{CELL_TYPE_MAP}', 'w') as f:
+        json.dump(cell_type_map, f) # Saved as .json file
 
 def main():
     args = parse_args()
@@ -76,9 +75,10 @@ def main():
     organ_map(model_metadata)
     print("Writing AlphaGenome supported cell types file ...")
     supported_cell_types(model_metadata)
-    print("Writing cell type mapping files for pseudobulk datasets ...")
-    cell_type_map(args.organs, args.assay)
-    print("All metadata files successfully created.")
+    for organ in args.organs:
+        print(f"Writing cell type mapping files for {organ} pseudobulk ...")
+        cell_type_map(organ, args.assay)
+    print("Done! All metadata files successfully created.")
 
 if __name__ == "__main__":
     main()
