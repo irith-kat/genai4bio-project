@@ -2,58 +2,104 @@
 
 ## Setup
 
-**1. Install dependencies**
+### 1. Installing dependencies
+
+Project dependencies are managed with `uv`; to install them, run:
 ```bash
 uv sync
 ```
 
-**2. Set up environment variables**
+This step should be run whenever changes are made to `pyproject.toml`.
 
-Copy the template to your own `env` file:
+### 2. AlphaGenome API and model (via Hugging Face) access
+
+To access the [AlphaGenome API](https://github.com/google-deepmind/alphagenome), get an API key [here](https://deepmind.google.com/science/alphagenome/).
+
+To access the [AlphaGenome model](https://github.com/google-deepmind/alphagenome_research) through Hugging Face, accept the conditions [here](https://huggingface.co/google/alphagenome-all-folds). Create a user access token [here](https://huggingface.co/settings/tokens) to authenticate this application to Hugging Face services.
+
+### 3. Set up environment variables
+
+Copy the template to your own `env` file (if not already done):
 ```bash
 cp env-template env
 ```
-Do not edit pre-filled variables. Fill in any empty variables (e.g., personal API keys), then run:
+
+Fill in any empty variables (e.g., personal API keys and tokens). Do not edit pre-filled variables. Then run:
 ```bash
 source env
 ```
 
-**3. Authenticate with GCP**
+### 4. Authenticate with GCP
+
+Log into GCP:
+
 ```bash
 gcloud auth application-default login
 gcloud config set project $GCP_PROJECT
 ```
 
-## Data Preprocessing
+If you want to check if you are already logged in, run:
 
-**1. Create local data directories** (if not already done)
 ```bash
-mkdir -p data/raw data/processed
+gcloud auth list
 ```
 
-**2. Download data** from [Tabula Sapiens v2](https://figshare.com/articles/dataset/Tabula_Sapiens_v2/27921984) and place `.h5ad` files in `data/raw/`.
+Ensure that you have been granted the necessary IAM permissions to this GCP project.
 
-Currently processed organs:
-* Heart
-* Lung
+## Data Processing Pipeline 
 
-**3. Run preprocessing script**
+The full data processing pipeline is: 
+
+**[raw] single-cell &rarr; pseudobulk &rarr; model-ready [processed]**
+
+Files may be stored locally (in respective `data/` subfolder) or on the Cloud (GCS bucket defined in `env`).
+
+### 1. Download raw data 
+
+Download `.h5ad` data files from [Tabula Sapiens v2](https://figshare.com/articles/dataset/Tabula_Sapiens_v2/27921984) and place them in `data/raw/`. The current organs we are working with are: lung, heart; so you only need to download those files for now.
+
+### 2. Run scRNA-seq -> pseudobulk data processing script
+
+To run the preprocessing script:
 
 ```bash
-uv run python3 preprocess.py \
-    --input  <filename>.h5ad \
-    --output <output_name>.parquet \
-    --assay  <10X|smartseq> \
+uv run python3 src/process_raw_sc.py \
+    --input <filename>.h5ad \
+    --organ <organ_name> \
+    --assay <10X|etc.> \
     --gcs
 ```
 
-Example:
+Example command:
+
 ```bash
-uv run python3 preprocess.py \
-    --input  Lung_TSP1_30_version2d_10X_smartseq_scvi_Nov122024.h5ad \
-    --output lung_10x_pseudobulk.parquet \
-    --assay  10X \
+uv run python3 src/process_raw_sc.py \
+    --input Lung_TSP1_30_version2d_10X_smartseq_scvi_Nov122024.h5ad \
+    --organ lung \
+    --assay 10X \
     --gcs
 ```
 
-Output is saved locally to `data/processed/` and uploaded to `gs://scalphagenome-data/preprocessed/`. Omit `--gcs` to skip the Cloud upload.
+The output `.parquet` file is saved locally to `data/pseudobulk/` and uploaded to `gs://scalphagenome-data/pseudobulk/`. Omit `--gcs` to skip uploading to the bucket.
+
+## Metadata Processing Pipeline
+
+### 1. Run metadata processing script
+
+To run the preprocessing script:
+
+```bash
+uv run python3 src/process_metadata.py \
+    --organ <organ_name> \
+    --assay <10X|etc.>
+```
+
+Example command:
+
+```bash
+uv run python3 src/process_metadata.py \
+    --organ lung \
+    --assay 10X
+```
+
+The output `.json` and `.txt` files are saved locally to `data/metadata/`. (GCS uploading functionality will be implemented soon.)

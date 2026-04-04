@@ -1,2 +1,5 @@
-data/
 env
+data/*/*.h5ad
+data/*/*.parquet
+data/*/*.json
+data/*/*.txt

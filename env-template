@@ -6,3 +6,6 @@ export GCS_BUCKET="scalphagenome-data"
 
 # AlphaGenome
 export ALPHAGENOME_API_KEY=""
+
+# Hugging Face
+export HF_TOKEN=""
