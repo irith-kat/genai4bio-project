@@ -56,7 +56,9 @@ Files may be stored locally (in respective `data/` subfolder) or on the Cloud (G
 
 ### 1. Download raw data 
 
-Download `.h5ad` data files from [Tabula Sapiens v2](https://figshare.com/articles/dataset/Tabula_Sapiens_v2/27921984) and place them in `data/raw/`. The current organs we are working with are: lung, heart; so you only need to download those files for now.
+Download `.h5ad` data files from [Tabula Sapiens v2](https://figshare.com/articles/dataset/Tabula_Sapiens_v2/27921984) and place them in `data/raw/`. The current organs we are working with are: lung, heart, kidney, liver; so you only need to download those files for now. 
+
+These files may be quite large, so do NOT upload them to the bucket; only upload data files once they have gone through at least one round of preprocessing.
 
 ### 2. Run scRNA-seq -> pseudobulk data processing script
 

@@ -8,7 +8,7 @@ import pandas as pd
 '''
 process_metadata.py
 -------------------
-
+Write ontological metadata dictionaries and other files associated with AlphaGenome and the Tabula Sapiens datasets.
 
 Arguments
 ---------
