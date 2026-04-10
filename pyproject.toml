@@ -2,7 +2,7 @@
 name = "genai4bio-project"
 version = "0.1.0"
 description = "Cell type-specific gene expression prediction integrating AlphaGenome with single-cell data"
-requires-python = ">=3.13"
+requires-python = ">=3.10,<3.12" # requires-python = ">=3.13"
 dependencies = [
     "aiohttp>=3.9",
     "alphagenome-research",
