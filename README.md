@@ -1,5 +1,7 @@
 # scAlphaGenome
 
+### Group Members: Jack Hwang, Irith Katiyar, Rohan Krishnamurthi, Liza Lopatina
+
 ## Setup
 
 ### 1. Installing dependencies
