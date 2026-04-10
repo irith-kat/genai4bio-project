@@ -48,7 +48,7 @@ gcloud auth list
 
 Ensure that you have been granted the necessary IAM permissions to this GCP project.
 
-### 5. Save AlphaGenome GTF annotation file locally.
+### 5. Save AlphaGenome GTF annotation file locally
 
 Run the code in `alphagenome_gtf.ipynb` if you haven't already. (This metadata step will save time when running `process_pseudobulk.py`.)
 
@@ -88,7 +88,25 @@ uv run python3 src/process_raw_sc.py \
     --gcs
 ```
 
-The output `.parquet` file is saved locally to `data/pseudobulk/` and uploaded to `gs://scalphagenome-data/pseudobulk/`. Omit `--gcs` to skip uploading to the bucket.
+### 3. Run pseudobulk -> AlphaGenome input data processing script
+
+To run the processing script:
+
+```bash
+uv run python3 src/process_pseudobulk.py \
+    --organ <organ_name> \
+    --assay <10X|etc.>
+```
+
+Example command:
+
+```bash
+uv run python3 src/process_pseudobulk.py \
+    --organ lung \
+    --assay 10X
+```
+
+The output `.parquet` file is saved locally to `data/processed/`. (GCS uploading TBD.)
 
 ## Metadata Processing Pipeline
 
@@ -110,4 +128,4 @@ uv run python3 src/process_metadata.py \
     --assay 10X
 ```
 
-The output `.json` and `.txt` files are saved locally to `data/metadata/`. (GCS uploading functionality will be implemented soon.)
+The output `.json` and `.txt` files are saved locally to `data/metadata/`. (GCS uploading TBD.)
