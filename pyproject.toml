@@ -10,6 +10,7 @@ dependencies = [
     "pyarrow>=23.0.1",
     "requests>=2.32",
     "scanpy>=1.12",
+    "tensorflow = >=2.10,<2.21"
 ]
 
 [tool.uv.sources]
