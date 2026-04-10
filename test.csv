@@ -1,0 +1,30 @@
+cell_ontology_id,cell_ontology_class,n_cells
+CL:0002503,adventitial cell,274
+CL:4028006,alveolar type 2 fibroblast cell,1013
+CL:0000236,b cell,657
+CL:0000646,basal cell,3834
+CL:0000767,basophil,1308
+CL:0002598,bronchial smooth muscle cell,187
+CL:0002144,capillary endothelial cell,6904
+CL:0000624,"cd4-positive, alpha-beta t cell",2043
+CL:0000625,"cd8-positive, alpha-beta t cell",1871
+CL:0000860,classical monocyte,1371
+CL:0000158,club cell,1722
+CL:1000413,endothelial cell of artery,1635
+CL:0002138,endothelial cell of lymphatic vessel,307
+CL:0002393,intermediate monocyte,2781
+CL:1000271,lung ciliated cell,1085
+CL:0000235,macrophage,16341
+CL:0000814,mature nk t cell,163
+CL:0000576,monocyte,506
+CL:0000623,natural killer cell,1016
+CL:0000775,neutrophil,306
+CL:0000875,non-classical monocyte,454
+CL:0000669,pericyte,679
+CL:0000786,plasma cell,134
+CL:0017000,pulmonary ionocyte,23
+CL:0002370,respiratory goblet cell,978
+CL:0002062,type i pneumocyte,3046
+CL:0002063,type ii pneumocyte,10845
+CL:0000359,vascular associated smooth muscle cell,130
+CL:0002543,vein endothelial cell,1286
