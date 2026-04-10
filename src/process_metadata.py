@@ -24,7 +24,7 @@ Output format
 This script generates the following metadata files stored in the 'data/metadata' directory:
 1. 'alphagenome_organ_map.json': dictionary mapping organ name to UBERON ID based on the list of ontology terms in AlphaGenome
 2. 'alphagenome_supported_cell_types.txt': list of CL IDs for cell types that are in the list of ontology terms in AlphaGenome
-3. '<organ>_<assay>_cell_type_map.json': for each organ, dictionary mapping from CL ID to cell type name based on annotations in Tabula Sapiens
+3. '<organ>_<assay>_cell_type_map.csv': for each organ, dictionary mapping from CL ID to cell type and number of cells based on Tabula Sapiens annotations
 
 Example usage
 -------------
@@ -57,14 +57,12 @@ def supported_cell_types(model_metadata):
         f.write('\n'.join(supported_cell_types)) # Saved as .txt file
 
 def cell_type_map(organ, assay):
-    # Cell ontology mapping from ID to type from given preprocessed scRNA-seq dataset
+    # Cell ontology mapping from ID to type and n_cells from given preprocessed scRNA-seq dataset
     df = pd.read_parquet(f'{DATASET_DIR}/{organ}_{assay}_pseudobulk.parquet') # Read pseudobulk data (cell type x gene)
     df = df.reset_index()
-    cell_type_map = df[['cell_ontology_class', 'cell_ontology_id']].copy().drop_duplicates()
+    cell_type_map = df[['cell_ontology_class', 'cell_ontology_id', 'n_cells']]
     cell_type_map.set_index('cell_ontology_id', inplace=True)
-    cell_type_map = cell_type_map['cell_ontology_class'].to_dict()
-    with open(f'{METADATA_DIR}/{organ}_{assay}_{CELL_TYPE_MAP}', 'w') as f:
-        json.dump(cell_type_map, f) # Saved as .json file
+    cell_type_map.to_csv(f'{METADATA_DIR}/{organ}_{assay}_{CELL_TYPE_MAP}.csv') # Saved as .csv file
 
 def main():
     args = parse_args()
