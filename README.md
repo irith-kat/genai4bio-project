@@ -48,6 +48,10 @@ gcloud auth list
 
 Ensure that you have been granted the necessary IAM permissions to this GCP project.
 
+### 5. Save AlphaGenome GTF annotation file locally.
+
+Run the code in `alphagenome_gtf.ipynb` if you haven't already. (This metadata step will save time when running `process_pseudobulk.py`.)
+
 ## Data Processing Pipeline 
 
 The full data processing pipeline is: 
