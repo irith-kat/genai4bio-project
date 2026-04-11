@@ -2,7 +2,7 @@
 name = "genai4bio-project"
 version = "0.1.0"
 description = "Cell type-specific gene expression prediction integrating AlphaGenome with single-cell data"
-requires-python = ">=3.13"
+requires-python = ">=3.12,<3.14"
 dependencies = [
     "aiohttp>=3.9",
     "alphagenome-research",
@@ -19,5 +19,4 @@ alphagenome-research = { git = "https://github.com/google-deepmind/alphagenome_r
 [dependency-groups]
 dev = [
     "ipykernel>=7.2.0",
-    "jupyterlab>=4"
 ]
