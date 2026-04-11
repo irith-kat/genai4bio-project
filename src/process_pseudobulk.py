@@ -30,8 +30,8 @@ uv run python3 src/process_pseudobulk.py --organ lung --assay 10X
 '''
 
 # Global variables
-INPUT_DATA_DIR = 'data/pseudobulk'
-OUTPUT_DATA_DIR = 'data/processed'
+INPUT_DIR = 'data/pseudobulk'
+OUTPUT_DIR = 'data/processed'
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -64,7 +64,7 @@ def main():
     
     # Read input pseudobulk data file
     print("Loading input data...")
-    input_path = f'{INPUT_DATA_DIR}/{args.organ}_{args.assay}_pseudobulk.parquet'
+    input_path = f'{INPUT_DIR}/{args.organ}_{args.assay}_pseudobulk.parquet'
     df = pd.read_parquet(input_path)
     df = df.reset_index()
     
@@ -75,7 +75,7 @@ def main():
 
     # Save processed data to output file
     print("Saving output data...")
-    output_path = f'{OUTPUT_DATA_DIR}/{args.organ}_{args.assay}_processed.parquet'
+    output_path = f'{OUTPUT_DIR}/{args.organ}_{args.assay}_processed.parquet'
     processed_df.to_parquet(output_path)
     print("Complete!")
 
