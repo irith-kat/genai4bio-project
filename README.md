@@ -52,6 +52,15 @@ Ensure that you have been granted the necessary IAM permissions to this GCP proj
 
 Run the code in `alphagenome_gtf.ipynb` if you haven't already. (This metadata step will save time when running `process_pseudobulk.py`.)
 
+### 6. Create output folder locally
+
+Create an `output` folder to store all model outputs and plots. The contents of this folder will never be pushed to the repository.
+
+```bash
+mkdir output
+```
+
+
 ## Data Processing Pipeline 
 
 The full data processing pipeline is: 
