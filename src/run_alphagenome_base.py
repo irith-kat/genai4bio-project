@@ -33,10 +33,10 @@ def construct_interval(gene) -> genome.Interval:
     )
 
 def filter_rna_seq_output(rna_seq, interval):
-    rna_seq_metadata = rna_seq.metadata
-    rna_seq_metadata = rna_seq_metadata[rna_seq_metadata['strand'] == interval.strand]
-    rna_seq_metadata = rna_seq_metadata[rna_seq_metadata['Assay title'] == 'polyA plus RNA-seq']
-    rna_seq = rna_seq.filter_tracks([True if i == rna_seq_metadata.index else False for i in range(rna_seq.num_tracks)])
+    if rna_seq.num_tracks == 1: return rna_seq
+    if interval.strand == '-': rna_seq = rna_seq.filter_to_nonpositive_strand()
+    else: rna_seq = rna_seq.filter_to_nonnegative_strand()
+    if rna_seq.num_tracks > 1: rna_seq = rna_seq.filter_tracks([row['Assay title'] == 'polyA plus RNA-seq' for _, row in rna_seq.metadata.iterrows()])
     return rna_seq
 
 def main():
@@ -44,7 +44,7 @@ def main():
     with open('data/metadata/alphagenome_organ_map.json', 'r') as f:
         model_uberon_ontology_terms = json.load(f)
     with open('data/metadata/alphagenome_supported_cell_types.txt', 'r') as f:
-        model_cl_ontology_terms = f.readlines()
+        model_cl_ontology_terms = f.read().splitlines()
     args = parse_args()
 
     print('Loading input data...')
@@ -56,9 +56,9 @@ def main():
     # Iterate over each CL ID
     cell_types = [col for col in df.columns if col.startswith('CL:')]
     print(f'Number of cell types: {len(cell_types)}')
-    for cell_type in cell_types:
-
-        print(f'Running predictions for cell type {cell_type}...')
+    for i in range(len(cell_types)):
+        cell_type = cell_types[i]
+        print(f'Cell type {cell_type} ({i+1}/{len(cell_types)}):')
         # Select most granular ontology term available for the organ/cell type
         cl_ontology_used = False
         ontology_term = model_uberon_ontology_terms[args.organ]
@@ -70,7 +70,7 @@ def main():
             print(f'Cell type not supported. Conditioning Alpha Genome on organ-level ontology term {ontology_term}.')
         
         # Iterate through each gene ID
-        abs_diffs = []
+        diffs_sum, diffs_avg, diffs_max = [], [], []
         for _, row in tqdm(df.iterrows(), total=len(df)):
 
             # For each gene, predict RNA-seq signal tracks for the 1MB region centered around the gene
@@ -88,23 +88,37 @@ def main():
             gene_end = interval.end - track_start
             rna_seq_gene = rna_seq[gene_start:gene_end]
 
-            pred_expr = rna_seq_gene.values.sum() # Total expression across the gene body (aggregation can/should be changed)
+            # Expression across the gene body
+            pred_expr_sum = rna_seq_gene.values.sum()
+            pred_expr_avg = rna_seq_gene.values.mean()
+            pred_expr_max = rna_seq_gene.values.max()
 
             # Compare predicted expression with ground truth
             gt_expr = row[cell_type]
-            diff = pred_expr - gt_expr
-            abs_diff = abs(diff)
-            abs_diffs.append(abs_diff)
+            diff_sum = abs(pred_expr_sum - gt_expr)
+            diff_avg = abs(pred_expr_avg - gt_expr)
+            diff_max = abs(pred_expr_max - gt_expr)
+            diffs_sum.append(diff_sum)
+            diffs_avg.append(diff_avg)
+            diffs_max.append(diff_max)
         
         # Average absolute difference for the cell type
-        avg_abs_diff = np.mean(abs_diffs)
-        std_abs_diff = np.std(abs_diffs)
+        avg_diff_sum, std_diff_sum = np.mean(diffs_sum), np.std(diffs_sum)
+        avg_diff_avg, std_diff_avg = np.mean(diffs_avg), np.std(diffs_avg)
+        avg_diff_max, std_diff_max = np.mean(diffs_max), np.std(diffs_max)
+        print(f'Average absolute difference in sum expression: {avg_diff_sum:.4f} (std: {std_diff_sum:.4f})')
+        print(f'Average absolute difference in average expression: {avg_diff_avg:.4f} (std: {std_diff_avg:.4f})')
+        print(f'Average absolute difference in max expression: {avg_diff_max:.4f} (std: {std_diff_max:.4f})')
 
         results.append({
             'cell_type': cell_type,
-            'avg_abs_diff': avg_abs_diff,
-            'std_abs_diff': std_abs_diff,
-            'cl_ontology_used': cl_ontology_used
+            'cl_ontology_used': cl_ontology_used,
+            'avg_diff_sum': avg_diff_sum,
+            'std_diff_sum': std_diff_sum,
+            'avg_diff_avg': avg_diff_avg,
+            'std_diff_avg': std_diff_avg,
+            'avg_diff_max': avg_diff_max,
+            'std_diff_max': std_diff_max,
         })
     
     # Save results to output file

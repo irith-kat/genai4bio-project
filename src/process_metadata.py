@@ -36,7 +36,7 @@ METADATA_DIR = 'data/metadata'
 DATASET_DIR = 'data/pseudobulk'
 ORGAN_MAP = 'alphagenome_organ_map.json'
 SUPPORTED_CELL_TYPES = 'alphagenome_supported_cell_types.txt'
-CELL_TYPE_MAP = 'cell_type_map.json'
+CELL_TYPE_MAP = 'cell_type_map.csv'
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -62,7 +62,7 @@ def cell_type_map(organ, assay):
     df = df.reset_index()
     cell_type_map = df[['cell_ontology_class', 'cell_ontology_id', 'n_cells']]
     cell_type_map.set_index('cell_ontology_id', inplace=True)
-    cell_type_map.to_csv(f'{METADATA_DIR}/{organ}_{assay}_{CELL_TYPE_MAP}.csv') # Saved as .csv file
+    cell_type_map.to_csv(f'{METADATA_DIR}/{organ}_{assay}_{CELL_TYPE_MAP}') # Saved as .csv file
 
 def main():
     args = parse_args()

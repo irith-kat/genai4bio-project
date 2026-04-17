@@ -19,5 +19,4 @@ alphagenome-research = { git = "https://github.com/google-deepmind/alphagenome_r
 [dependency-groups]
 dev = [
     "ipykernel>=7.2.0",
-    "google-colab",
 ]

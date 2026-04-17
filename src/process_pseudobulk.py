@@ -1,5 +1,6 @@
 import argparse
 import pandas as pd
+from alphagenome.models import dna_client
 
 '''
 process_pseudobulk.py
@@ -57,6 +58,11 @@ def process_expression(df):
         'gene_id', 'gene_name', 'Chromosome', 'Start', 'End', 'Strand'
     ]], on='gene_id', how='inner') # Drop genes in dataset that don't have available coordinates
     expr_df_merged.rename(columns={'Chromosome':'chromosome', 'Start':'start', 'End':'end', 'Strand':'strand'}, inplace=True)
+
+    # Filter out genes with intervals longer than AlphaGenome 1MB input size
+    gene_lengths = expr_df_merged['end'] - expr_df_merged['start']
+    expr_df_merged = expr_df_merged[gene_lengths <= dna_client.SEQUENCE_LENGTH_1MB]
+
     return expr_df_merged
 
 def main():
@@ -71,7 +77,7 @@ def main():
     # Process pseudobulk data to prepare for AlphaGenome input
     print("Starting input data processing...")
     processed_df = process_expression(df)
-    print("Finished processing.")
+    print(f"Finished processing. Final number of genes: {len(processed_df)}")
 
     # Save processed data to output file
     print("Saving output data...")
