@@ -1,0 +1,622 @@
+,Run,LibraryName,LibraryStrategy,LibrarySelection,SampleName,Sample_title,Sample_cell_line,Sample_library_selection,Sample_library_source,Sample_library_strategy,Sample_cell_description,Sample_platform_id,Sample_instrument_model
+0,SRR16195160,GSM5609425,RNA-Seq,cDNA,GSM5609425,Smart-HCT-01,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 001,GPL18573,Illumina NextSeq 500
+1,SRR16195159,GSM5609426,RNA-Seq,cDNA,GSM5609426,Smart-HCT-02,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 002,GPL18573,Illumina NextSeq 500
+2,SRR16195158,GSM5609427,RNA-Seq,cDNA,GSM5609427,Smart-HCT-03,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 003,GPL18573,Illumina NextSeq 500
+3,SRR16195157,GSM5609620,OTHER,other,GSM5609620,HUVEC+H9 scONEseq 002,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 002,GPL18573,Illumina NextSeq 500
+4,SRR16195156,GSM5609621,OTHER,other,GSM5609621,HUVEC+H9 scONEseq 003,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 003,GPL18573,Illumina NextSeq 500
+5,SRR16195155,GSM5609622,OTHER,other,GSM5609622,HUVEC+H9 scONEseq 004,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 004,GPL18573,Illumina NextSeq 500
+6,SRR16195154,GSM5609623,OTHER,other,GSM5609623,HUVEC+H9 scONEseq 005,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 005,GPL18573,Illumina NextSeq 500
+7,SRR16195153,GSM5609624,OTHER,other,GSM5609624,HUVEC+H9 scONEseq 006,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 006,GPL18573,Illumina NextSeq 500
+8,SRR16195152,GSM5609625,OTHER,other,GSM5609625,HUVEC+H9 scONEseq 007,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 007,GPL18573,Illumina NextSeq 500
+9,SRR16195151,GSM5609626,OTHER,other,GSM5609626,HUVEC+H9 scONEseq 008,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 008,GPL18573,Illumina NextSeq 500
+10,SRR16195150,GSM5609627,OTHER,other,GSM5609627,HUVEC+H9 scONEseq 009,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 009,GPL18573,Illumina NextSeq 500
+11,SRR16195149,GSM5609628,OTHER,other,GSM5609628,HUVEC+H9 scONEseq 010,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 010,GPL18573,Illumina NextSeq 500
+12,SRR16195148,GSM5609629,OTHER,other,GSM5609629,HUVEC+H9 scONEseq 011,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 011,GPL18573,Illumina NextSeq 500
+13,SRR16195147,GSM5609630,OTHER,other,GSM5609630,HUVEC+H9 scONEseq 012,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 012,GPL18573,Illumina NextSeq 500
+14,SRR16195146,GSM5609631,OTHER,other,GSM5609631,HUVEC+H9 scONEseq 013,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 013,GPL18573,Illumina NextSeq 500
+15,SRR16195145,GSM5609632,OTHER,other,GSM5609632,HUVEC+H9 scONEseq 014,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 014,GPL18573,Illumina NextSeq 500
+16,SRR16195144,GSM5609633,OTHER,other,GSM5609633,HUVEC+H9 scONEseq 015,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 015,GPL18573,Illumina NextSeq 500
+17,SRR16195143,GSM5609634,OTHER,other,GSM5609634,HUVEC+H9 scONEseq 016,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 016,GPL18573,Illumina NextSeq 500
+18,SRR16195142,GSM5609635,OTHER,other,GSM5609635,HUVEC+H9 scONEseq 017,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 017,GPL18573,Illumina NextSeq 500
+19,SRR16195141,GSM5609636,OTHER,other,GSM5609636,HUVEC+H9 scONEseq 018,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 018,GPL18573,Illumina NextSeq 500
+20,SRR16195140,GSM5609637,OTHER,other,GSM5609637,HUVEC+H9 scONEseq 019,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 019,GPL18573,Illumina NextSeq 500
+21,SRR16195139,GSM5609638,OTHER,other,GSM5609638,HUVEC+H9 scONEseq 020,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 020,GPL18573,Illumina NextSeq 500
+22,SRR16195138,GSM5609639,OTHER,other,GSM5609639,HUVEC+H9 scONEseq 021,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 021,GPL18573,Illumina NextSeq 500
+23,SRR16195137,GSM5609640,OTHER,other,GSM5609640,HUVEC+H9 scONEseq 022,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 022,GPL18573,Illumina NextSeq 500
+24,SRR16195136,GSM5609641,OTHER,other,GSM5609641,HUVEC+H9 scONEseq 023,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 023,GPL18573,Illumina NextSeq 500
+25,SRR16195135,GSM5609642,OTHER,other,GSM5609642,HUVEC+H9 scONEseq 024,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 024,GPL18573,Illumina NextSeq 500
+26,SRR16195134,GSM5609643,OTHER,other,GSM5609643,HUVEC+H9 scONEseq 025,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 025,GPL18573,Illumina NextSeq 500
+27,SRR16195133,GSM5609716,OTHER,other,GSM5609716,NPC43 scONEseq 031,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 031,GPL18573,Illumina NextSeq 500
+28,SRR16195132,GSM5609717,OTHER,other,GSM5609717,NPC43 scONEseq 032,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 032,GPL18573,Illumina NextSeq 500
+29,SRR16195131,GSM5609718,OTHER,other,GSM5609718,NPC43 scONEseq 033,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 033,GPL18573,Illumina NextSeq 500
+30,SRR16195130,GSM5609719,OTHER,other,GSM5609719,NPC43 scONEseq 034,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 034,GPL18573,Illumina NextSeq 500
+31,SRR16195129,GSM5609720,OTHER,other,GSM5609720,NPC43 scONEseq 035,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 035,GPL18573,Illumina NextSeq 500
+32,SRR16195128,GSM5609721,OTHER,other,GSM5609721,NPC43 scONEseq 036,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 036,GPL18573,Illumina NextSeq 500
+33,SRR16195127,GSM5609722,OTHER,other,GSM5609722,NPC43 scONEseq 037,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 037,GPL18573,Illumina NextSeq 500
+34,SRR16195126,GSM5609723,OTHER,other,GSM5609723,NPC43 scONEseq 038,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 038,GPL18573,Illumina NextSeq 500
+35,SRR16195125,GSM5609724,OTHER,other,GSM5609724,NPC43 scONEseq 039,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 039,GPL18573,Illumina NextSeq 500
+36,SRR16195124,GSM5609725,OTHER,other,GSM5609725,NPC43 scONEseq 040,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 040,GPL18573,Illumina NextSeq 500
+37,SRR16195123,GSM5609726,OTHER,other,GSM5609726,NPC43 scONEseq 041,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 041,GPL18573,Illumina NextSeq 500
+38,SRR16195122,GSM5609727,OTHER,other,GSM5609727,NPC43 scONEseq 042,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 042,GPL18573,Illumina NextSeq 500
+39,SRR16195121,GSM5609728,OTHER,other,GSM5609728,NPC43 scONEseq 043,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 043,GPL18573,Illumina NextSeq 500
+40,SRR16195120,GSM5609729,OTHER,other,GSM5609729,NPC43 scONEseq 044,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 044,GPL18573,Illumina NextSeq 500
+41,SRR16195119,GSM5609730,OTHER,other,GSM5609730,NPC43 scONEseq 045,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 045,GPL18573,Illumina NextSeq 500
+42,SRR16195118,GSM5609731,OTHER,other,GSM5609731,NPC43 scONEseq 046,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 046,GPL18573,Illumina NextSeq 500
+43,SRR16195117,GSM5609732,OTHER,other,GSM5609732,NPC43 scONEseq 047,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 047,GPL18573,Illumina NextSeq 500
+44,SRR16195116,GSM5609733,OTHER,other,GSM5609733,NPC43 scONEseq 048,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 048,GPL18573,Illumina NextSeq 500
+45,SRR16195115,GSM5609734,OTHER,other,GSM5609734,NPC43 scONEseq 049,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 049,GPL18573,Illumina NextSeq 500
+46,SRR16195114,GSM5609735,OTHER,other,GSM5609735,NPC43 scONEseq 050,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 050,GPL18573,Illumina NextSeq 500
+47,SRR16195113,GSM5609736,OTHER,other,GSM5609736,NPC43 scONEseq 051,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 051,GPL18573,Illumina NextSeq 500
+48,SRR16195112,GSM5609737,OTHER,other,GSM5609737,NPC43 scONEseq 052,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 052,GPL18573,Illumina NextSeq 500
+49,SRR16195111,GSM5609738,OTHER,other,GSM5609738,NPC43 scONEseq 053,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 053,GPL18573,Illumina NextSeq 500
+50,SRR16195110,GSM5609739,OTHER,other,GSM5609739,NPC43 scONEseq 054,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 054,GPL18573,Illumina NextSeq 500
+51,SRR16195109,GSM5609428,RNA-Seq,cDNA,GSM5609428,Smart-HCT-04,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 004,GPL18573,Illumina NextSeq 500
+52,SRR16195108,GSM5609429,RNA-Seq,cDNA,GSM5609429,Smart-HCT-05,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 005,GPL18573,Illumina NextSeq 500
+53,SRR16195107,GSM5609430,RNA-Seq,cDNA,GSM5609430,Smart-HCT-06,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 006,GPL18573,Illumina NextSeq 500
+54,SRR16195106,GSM5609431,RNA-Seq,cDNA,GSM5609431,Smart-HCT-07,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 007,GPL18573,Illumina NextSeq 500
+55,SRR16195105,GSM5609432,RNA-Seq,cDNA,GSM5609432,Smart-HCT-08,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 008,GPL18573,Illumina NextSeq 500
+56,SRR16195104,GSM5609433,RNA-Seq,cDNA,GSM5609433,Smart-HCT-09,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 009,GPL18573,Illumina NextSeq 500
+57,SRR16195103,GSM5609434,RNA-Seq,cDNA,GSM5609434,Smart-HCT-10,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 010,GPL18573,Illumina NextSeq 500
+58,SRR16195102,GSM5609435,RNA-Seq,cDNA,GSM5609435,Smart-HCT-11,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 011,GPL18573,Illumina NextSeq 500
+59,SRR16195101,GSM5609436,RNA-Seq,cDNA,GSM5609436,Smart-HCT-12,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 012,GPL18573,Illumina NextSeq 500
+60,SRR16195100,GSM5609437,RNA-Seq,cDNA,GSM5609437,Smart-HCT-13,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 013,GPL18573,Illumina NextSeq 500
+61,SRR16195099,GSM5609438,RNA-Seq,cDNA,GSM5609438,Smart-HCT-14,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 014,GPL18573,Illumina NextSeq 500
+62,SRR16195098,GSM5609439,RNA-Seq,cDNA,GSM5609439,Smart-HCT-15,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 015,GPL18573,Illumina NextSeq 500
+63,SRR16195097,GSM5609440,RNA-Seq,cDNA,GSM5609440,Smart-HCT-16,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 016,GPL18573,Illumina NextSeq 500
+64,SRR16195096,GSM5609441,RNA-Seq,cDNA,GSM5609441,Smart-HCT-17,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 017,GPL18573,Illumina NextSeq 500
+65,SRR16195094,GSM5609443,RNA-Seq,cDNA,GSM5609443,Smart-HCT-19,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 019,GPL18573,Illumina NextSeq 500
+66,SRR16195095,GSM5609442,RNA-Seq,cDNA,GSM5609442,Smart-HCT-18,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 018,GPL18573,Illumina NextSeq 500
+67,SRR16195093,GSM5609444,RNA-Seq,cDNA,GSM5609444,Smart-HCT-20,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 020,GPL18573,Illumina NextSeq 500
+68,SRR16195092,GSM5609445,RNA-Seq,cDNA,GSM5609445,Smart-HCT-21,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 021,GPL18573,Illumina NextSeq 500
+69,SRR16195091,GSM5609446,RNA-Seq,cDNA,GSM5609446,Smart-HCT-22,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 022,GPL18573,Illumina NextSeq 500
+70,SRR16195090,GSM5609447,RNA-Seq,cDNA,GSM5609447,Smart-HCT-23,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 023,GPL18573,Illumina NextSeq 500
+71,SRR16195089,GSM5609448,RNA-Seq,cDNA,GSM5609448,Smart-HCT-24,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 024,GPL18573,Illumina NextSeq 500
+72,SRR16195088,GSM5609449,RNA-Seq,cDNA,GSM5609449,Smart-HCT-25,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 025,GPL18573,Illumina NextSeq 500
+73,SRR16195087,GSM5609450,RNA-Seq,cDNA,GSM5609450,Smart-HCT-26,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 026,GPL18573,Illumina NextSeq 500
+74,SRR16195086,GSM5609451,RNA-Seq,cDNA,GSM5609451,Smart-HCT-27,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 027,GPL18573,Illumina NextSeq 500
+75,SRR16195085,GSM5609476,RNA-Seq,cDNA,GSM5609476,Smart-HCT-52,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 052,GPL18573,Illumina NextSeq 500
+76,SRR16195084,GSM5609477,RNA-Seq,cDNA,GSM5609477,Smart-HCT-53,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 053,GPL18573,Illumina NextSeq 500
+77,SRR16195083,GSM5609478,RNA-Seq,cDNA,GSM5609478,Smart-HCT-54,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 054,GPL18573,Illumina NextSeq 500
+78,SRR16195082,GSM5609479,RNA-Seq,cDNA,GSM5609479,Smart-HCT-55,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 055,GPL18573,Illumina NextSeq 500
+79,SRR16195081,GSM5609480,RNA-Seq,cDNA,GSM5609480,Smart-HCT-56,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 056,GPL18573,Illumina NextSeq 500
+80,SRR16195080,GSM5609481,RNA-Seq,cDNA,GSM5609481,Smart-HCT-57,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 057,GPL18573,Illumina NextSeq 500
+81,SRR16195079,GSM5609482,RNA-Seq,cDNA,GSM5609482,Smart-HCT-58,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 058,GPL18573,Illumina NextSeq 500
+82,SRR16195078,GSM5609483,RNA-Seq,cDNA,GSM5609483,Smart-HCT-59,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 059,GPL18573,Illumina NextSeq 500
+83,SRR16195077,GSM5609484,RNA-Seq,cDNA,GSM5609484,Smart-HCT-60,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 060,GPL18573,Illumina NextSeq 500
+84,SRR16195076,GSM5609485,RNA-Seq,cDNA,GSM5609485,Smart-HCT-61,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 061,GPL18573,Illumina NextSeq 500
+85,SRR16195075,GSM5609486,RNA-Seq,cDNA,GSM5609486,Smart-HCT-62,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 062,GPL18573,Illumina NextSeq 500
+86,SRR16195074,GSM5609487,RNA-Seq,cDNA,GSM5609487,Smart-HCT-63,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 063,GPL18573,Illumina NextSeq 500
+87,SRR16195073,GSM5609488,RNA-Seq,cDNA,GSM5609488,Smart-HCT-64,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 064,GPL18573,Illumina NextSeq 500
+88,SRR16195072,GSM5609489,RNA-Seq,cDNA,GSM5609489,Smart-HCT-65,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 065,GPL18573,Illumina NextSeq 500
+89,SRR16195071,GSM5609490,RNA-Seq,cDNA,GSM5609490,Smart-HCT-66,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 066,GPL18573,Illumina NextSeq 500
+90,SRR16195070,GSM5609491,RNA-Seq,cDNA,GSM5609491,Smart-HCT-67,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 067,GPL18573,Illumina NextSeq 500
+91,SRR16195069,GSM5609492,RNA-Seq,cDNA,GSM5609492,Smart-HCT-68,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 068,GPL18573,Illumina NextSeq 500
+92,SRR16195068,GSM5609493,RNA-Seq,cDNA,GSM5609493,Smart-HCT-69,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 069,GPL18573,Illumina NextSeq 500
+93,SRR16195067,GSM5609494,RNA-Seq,cDNA,GSM5609494,Smart-HCT-70,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 070,GPL18573,Illumina NextSeq 500
+94,SRR16195066,GSM5609495,RNA-Seq,cDNA,GSM5609495,Smart-HCT-71,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 071,GPL18573,Illumina NextSeq 500
+95,SRR16195065,GSM5609496,RNA-Seq,cDNA,GSM5609496,Smart-HCT-72,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 072,GPL18573,Illumina NextSeq 500
+96,SRR16195064,GSM5609497,RNA-Seq,cDNA,GSM5609497,Smart-HCT-73,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 073,GPL18573,Illumina NextSeq 500
+97,SRR16195063,GSM5609498,RNA-Seq,cDNA,GSM5609498,Smart-HCT-74,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 074,GPL18573,Illumina NextSeq 500
+98,SRR16195062,GSM5609499,RNA-Seq,cDNA,GSM5609499,Smart-HCT-75,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 075,GPL18573,Illumina NextSeq 500
+99,SRR16195061,GSM5609644,OTHER,other,GSM5609644,HUVEC+H9 scONEseq 026,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 026,GPL18573,Illumina NextSeq 500
+100,SRR16195060,GSM5609645,OTHER,other,GSM5609645,HUVEC+H9 scONEseq 027,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 027,GPL18573,Illumina NextSeq 500
+101,SRR16195059,GSM5609646,OTHER,other,GSM5609646,HUVEC+H9 scONEseq 028,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 028,GPL18573,Illumina NextSeq 500
+102,SRR16195057,GSM5609648,OTHER,other,GSM5609648,HUVEC+H9 scONEseq 030,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 030,GPL18573,Illumina NextSeq 500
+103,SRR16195058,GSM5609647,OTHER,other,GSM5609647,HUVEC+H9 scONEseq 029,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 029,GPL18573,Illumina NextSeq 500
+104,SRR16195056,GSM5609649,OTHER,other,GSM5609649,HUVEC+H9 scONEseq 031,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 031,GPL18573,Illumina NextSeq 500
+105,SRR16195054,GSM5609651,OTHER,other,GSM5609651,HUVEC+H9 scONEseq 033,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 033,GPL18573,Illumina NextSeq 500
+106,SRR16195055,GSM5609650,OTHER,other,GSM5609650,HUVEC+H9 scONEseq 032,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 032,GPL18573,Illumina NextSeq 500
+107,SRR16195053,GSM5609652,OTHER,other,GSM5609652,HUVEC+H9 scONEseq 034,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 034,GPL18573,Illumina NextSeq 500
+108,SRR16195051,GSM5609654,OTHER,other,GSM5609654,HUVEC+H9 scONEseq 036,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 036,GPL18573,Illumina NextSeq 500
+109,SRR16195052,GSM5609653,OTHER,other,GSM5609653,HUVEC+H9 scONEseq 035,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 035,GPL18573,Illumina NextSeq 500
+110,SRR16195050,GSM5609655,OTHER,other,GSM5609655,HUVEC+H9 scONEseq 037,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 037,GPL18573,Illumina NextSeq 500
+111,SRR16195049,GSM5609656,OTHER,other,GSM5609656,HUVEC+H9 scONEseq 038,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 038,GPL18573,Illumina NextSeq 500
+112,SRR16195048,GSM5609657,OTHER,other,GSM5609657,HUVEC+H9 scONEseq 039,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 039,GPL18573,Illumina NextSeq 500
+113,SRR16195047,GSM5609658,OTHER,other,GSM5609658,HUVEC+H9 scONEseq 040,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 040,GPL18573,Illumina NextSeq 500
+114,SRR16195046,GSM5609659,OTHER,other,GSM5609659,HUVEC+H9 scONEseq 041,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 041,GPL18573,Illumina NextSeq 500
+115,SRR16195045,GSM5609660,OTHER,other,GSM5609660,HUVEC+H9 scONEseq 042,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 042,GPL18573,Illumina NextSeq 500
+116,SRR16195043,GSM5609662,OTHER,other,GSM5609662,HUVEC+H9 scONEseq 044,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 044,GPL18573,Illumina NextSeq 500
+117,SRR16195044,GSM5609661,OTHER,other,GSM5609661,HUVEC+H9 scONEseq 043,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 043,GPL18573,Illumina NextSeq 500
+118,SRR16195042,GSM5609663,OTHER,other,GSM5609663,HUVEC+H9 scONEseq 045,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 045,GPL18573,Illumina NextSeq 500
+119,SRR16195041,GSM5609664,OTHER,other,GSM5609664,HUVEC+H9 scONEseq 046,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 046,GPL18573,Illumina NextSeq 500
+120,SRR16195040,GSM5609665,OTHER,other,GSM5609665,HUVEC+H9 scONEseq 047,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 047,GPL18573,Illumina NextSeq 500
+121,SRR16195039,GSM5609666,OTHER,other,GSM5609666,HUVEC+H9 scONEseq 048,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 048,GPL18573,Illumina NextSeq 500
+122,SRR16195038,GSM5609667,OTHER,other,GSM5609667,HUVEC+H9 scONEseq 049,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 049,GPL18573,Illumina NextSeq 500
+123,SRR16195036,GSM5609813,OTHER,other,GSM5609813,NPC43 scONEseq 128,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 128,GPL18573,Illumina NextSeq 500
+124,SRR16195037,GSM5609812,OTHER,other,GSM5609812,NPC43 scONEseq 127,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 127,GPL18573,Illumina NextSeq 500
+125,SRR16195035,GSM5609814,OTHER,other,GSM5609814,NPC43 scONEseq 129,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 129,GPL18573,Illumina NextSeq 500
+126,SRR16195034,GSM5609815,OTHER,other,GSM5609815,NPC43 scONEseq 130,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 130,GPL18573,Illumina NextSeq 500
+127,SRR16195033,GSM5609816,OTHER,other,GSM5609816,NPC43 scONEseq 131,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 131,GPL18573,Illumina NextSeq 500
+128,SRR16195032,GSM5609817,OTHER,other,GSM5609817,NPC43 scONEseq 132,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 132,GPL18573,Illumina NextSeq 500
+129,SRR16195031,GSM5609818,OTHER,other,GSM5609818,NPC43 scONEseq 133,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 133,GPL18573,Illumina NextSeq 500
+130,SRR16195030,GSM5609819,OTHER,other,GSM5609819,NPC43 scONEseq 134,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 134,GPL18573,Illumina NextSeq 500
+131,SRR16195029,GSM5609820,OTHER,other,GSM5609820,NPC43 scONEseq 135,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 135,GPL18573,Illumina NextSeq 500
+132,SRR16195028,GSM5609821,OTHER,other,GSM5609821,NPC43 scONEseq 136,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 136,GPL18573,Illumina NextSeq 500
+133,SRR16195027,GSM5609822,OTHER,other,GSM5609822,NPC43 scONEseq 137,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 137,GPL18573,Illumina NextSeq 500
+134,SRR16195026,GSM5609823,OTHER,other,GSM5609823,NPC43 scONEseq 138,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 138,GPL18573,Illumina NextSeq 500
+135,SRR16195025,GSM5609824,OTHER,other,GSM5609824,NPC43 scONEseq 139,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 139,GPL18573,Illumina NextSeq 500
+136,SRR16195024,GSM5609825,OTHER,other,GSM5609825,NPC43 scONEseq 140,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 140,GPL18573,Illumina NextSeq 500
+137,SRR16195023,GSM5609826,OTHER,other,GSM5609826,NPC43 scONEseq 141,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 141,GPL18573,Illumina NextSeq 500
+138,SRR16195022,GSM5609827,OTHER,other,GSM5609827,NPC43 scONEseq 142,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 142,GPL18573,Illumina NextSeq 500
+139,SRR16195021,GSM5609828,OTHER,other,GSM5609828,NPC43 scONEseq 143,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 143,GPL18573,Illumina NextSeq 500
+140,SRR16195020,GSM5609829,OTHER,other,GSM5609829,NPC43 scONEseq 144,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 144,GPL18573,Illumina NextSeq 500
+141,SRR16195019,GSM5609830,OTHER,other,GSM5609830,NPC43 scONEseq 145,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 145,GPL18573,Illumina NextSeq 500
+142,SRR16195018,GSM5609831,OTHER,other,GSM5609831,NPC43 scONEseq 146,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 146,GPL18573,Illumina NextSeq 500
+143,SRR16195017,GSM5609832,OTHER,other,GSM5609832,NPC43 scONEseq 147,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 147,GPL18573,Illumina NextSeq 500
+144,SRR16195016,GSM5609833,OTHER,other,GSM5609833,NPC43 scONEseq 148,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 148,GPL18573,Illumina NextSeq 500
+145,SRR16195015,GSM5609834,OTHER,other,GSM5609834,NPC43 scONEseq 149,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 149,GPL18573,Illumina NextSeq 500
+146,SRR16195014,GSM5609835,OTHER,other,GSM5609835,NPC43 scONEseq 150,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 150,GPL18573,Illumina NextSeq 500
+147,SRR16195013,GSM5609740,OTHER,other,GSM5609740,NPC43 scONEseq 055,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 055,GPL18573,Illumina NextSeq 500
+148,SRR16195012,GSM5609741,OTHER,other,GSM5609741,NPC43 scONEseq 056,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 056,GPL18573,Illumina NextSeq 500
+149,SRR16195011,GSM5609742,OTHER,other,GSM5609742,NPC43 scONEseq 057,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 057,GPL18573,Illumina NextSeq 500
+150,SRR16195010,GSM5609743,OTHER,other,GSM5609743,NPC43 scONEseq 058,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 058,GPL18573,Illumina NextSeq 500
+151,SRR16195009,GSM5609744,OTHER,other,GSM5609744,NPC43 scONEseq 059,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 059,GPL18573,Illumina NextSeq 500
+152,SRR16195008,GSM5609745,OTHER,other,GSM5609745,NPC43 scONEseq 060,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 060,GPL18573,Illumina NextSeq 500
+153,SRR16195007,GSM5609746,OTHER,other,GSM5609746,NPC43 scONEseq 061,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 061,GPL18573,Illumina NextSeq 500
+154,SRR16195006,GSM5609747,OTHER,other,GSM5609747,NPC43 scONEseq 062,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 062,GPL18573,Illumina NextSeq 500
+155,SRR16195005,GSM5609748,OTHER,other,GSM5609748,NPC43 scONEseq 063,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 063,GPL18573,Illumina NextSeq 500
+156,SRR16195004,GSM5609749,OTHER,other,GSM5609749,NPC43 scONEseq 064,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 064,GPL18573,Illumina NextSeq 500
+157,SRR16195003,GSM5609750,OTHER,other,GSM5609750,NPC43 scONEseq 065,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 065,GPL18573,Illumina NextSeq 500
+158,SRR16195002,GSM5609751,OTHER,other,GSM5609751,NPC43 scONEseq 066,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 066,GPL18573,Illumina NextSeq 500
+159,SRR16195001,GSM5609752,OTHER,other,GSM5609752,NPC43 scONEseq 067,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 067,GPL18573,Illumina NextSeq 500
+160,SRR16195000,GSM5609753,OTHER,other,GSM5609753,NPC43 scONEseq 068,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 068,GPL18573,Illumina NextSeq 500
+161,SRR16194999,GSM5609754,OTHER,other,GSM5609754,NPC43 scONEseq 069,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 069,GPL18573,Illumina NextSeq 500
+162,SRR16194998,GSM5609755,OTHER,other,GSM5609755,NPC43 scONEseq 070,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 070,GPL18573,Illumina NextSeq 500
+163,SRR16194997,GSM5609756,OTHER,other,GSM5609756,NPC43 scONEseq 071,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 071,GPL18573,Illumina NextSeq 500
+164,SRR16194996,GSM5609757,OTHER,other,GSM5609757,NPC43 scONEseq 072,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 072,GPL18573,Illumina NextSeq 500
+165,SRR16194995,GSM5609758,OTHER,other,GSM5609758,NPC43 scONEseq 073,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 073,GPL18573,Illumina NextSeq 500
+166,SRR16194994,GSM5609759,OTHER,other,GSM5609759,NPC43 scONEseq 074,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 074,GPL18573,Illumina NextSeq 500
+167,SRR16194993,GSM5609760,OTHER,other,GSM5609760,NPC43 scONEseq 075,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 075,GPL18573,Illumina NextSeq 500
+168,SRR16194992,GSM5609761,OTHER,other,GSM5609761,NPC43 scONEseq 076,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 076,GPL18573,Illumina NextSeq 500
+169,SRR16194991,GSM5609762,OTHER,other,GSM5609762,NPC43 scONEseq 077,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 077,GPL18573,Illumina NextSeq 500
+170,SRR16194990,GSM5609763,OTHER,other,GSM5609763,NPC43 scONEseq 078,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 078,GPL18573,Illumina NextSeq 500
+171,SRR16194989,GSM5609836,OTHER,other,GSM5609836,NPC43 scONEseq 151,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 151,GPL18573,Illumina NextSeq 500
+172,SRR16194988,GSM5609837,OTHER,other,GSM5609837,NPC43 scONEseq 152,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 152,GPL18573,Illumina NextSeq 500
+173,SRR16194987,GSM5609838,OTHER,other,GSM5609838,NPC43 scONEseq 153,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 153,GPL18573,Illumina NextSeq 500
+174,SRR16194986,GSM5609839,OTHER,other,GSM5609839,NPC43 scONEseq 154,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 154,GPL18573,Illumina NextSeq 500
+175,SRR16194985,GSM5609840,OTHER,other,GSM5609840,NPC43 scONEseq 155,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 155,GPL18573,Illumina NextSeq 500
+176,SRR16194984,GSM5609841,OTHER,other,GSM5609841,NPC43 scONEseq 156,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 156,GPL18573,Illumina NextSeq 500
+177,SRR16194983,GSM5609842,OTHER,other,GSM5609842,NPC43 scONEseq 157,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 157,GPL18573,Illumina NextSeq 500
+178,SRR16194982,GSM5609843,OTHER,other,GSM5609843,NPC43 scONEseq 158,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 158,GPL18573,Illumina NextSeq 500
+179,SRR16194981,GSM5609844,OTHER,other,GSM5609844,NPC43 scONEseq 159,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 159,GPL18573,Illumina NextSeq 500
+180,SRR16194980,GSM5609845,OTHER,other,GSM5609845,NPC43 scONEseq 160,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 160,GPL18573,Illumina NextSeq 500
+181,SRR16194979,GSM5609846,OTHER,other,GSM5609846,NPC43 scONEseq 161,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 161,GPL18573,Illumina NextSeq 500
+182,SRR16194978,GSM5609847,OTHER,other,GSM5609847,NPC43 scONEseq 162,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 162,GPL18573,Illumina NextSeq 500
+183,SRR16194977,GSM5609848,OTHER,other,GSM5609848,NPC43 scONEseq 163,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 163,GPL18573,Illumina NextSeq 500
+184,SRR16194976,GSM5609849,OTHER,other,GSM5609849,NPC43 scONEseq 164,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 164,GPL18573,Illumina NextSeq 500
+185,SRR16194975,GSM5609850,OTHER,other,GSM5609850,NPC43 scONEseq 165,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 165,GPL18573,Illumina NextSeq 500
+186,SRR16194974,GSM5609851,OTHER,other,GSM5609851,NPC43 scONEseq 166,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 166,GPL18573,Illumina NextSeq 500
+187,SRR16194973,GSM5609852,OTHER,other,GSM5609852,NPC43 scONEseq 167,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 167,GPL18573,Illumina NextSeq 500
+188,SRR16194972,GSM5609853,OTHER,other,GSM5609853,NPC43 scONEseq 168,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 168,GPL18573,Illumina NextSeq 500
+189,SRR16194971,GSM5609854,OTHER,other,GSM5609854,NPC43 scONEseq 169,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 169,GPL18573,Illumina NextSeq 500
+190,SRR16194969,GSM5609500,RNA-Seq,cDNA,GSM5609500,Smart-HCT-76,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 076,GPL18573,Illumina NextSeq 500
+191,SRR16194968,GSM5609501,RNA-Seq,cDNA,GSM5609501,Smart-HCT-77,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 077,GPL18573,Illumina NextSeq 500
+192,SRR16194967,GSM5609502,RNA-Seq,cDNA,GSM5609502,Smart-HCT-78,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 078,GPL18573,Illumina NextSeq 500
+193,SRR16194966,GSM5609503,RNA-Seq,cDNA,GSM5609503,Smart-HCT-79,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 079,GPL18573,Illumina NextSeq 500
+194,SRR16194970,GSM5609855,OTHER,other,GSM5609855,NPC43 scONEseq 170,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 170,GPL18573,Illumina NextSeq 500
+195,SRR16194965,GSM5609504,RNA-Seq,cDNA,GSM5609504,Smart-HCT-80,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 080,GPL18573,Illumina NextSeq 500
+196,SRR16194964,GSM5609505,RNA-Seq,cDNA,GSM5609505,Smart-HCT-81,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 081,GPL18573,Illumina NextSeq 500
+197,SRR16194963,GSM5609506,RNA-Seq,cDNA,GSM5609506,Smart-HCT-82,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 082,GPL18573,Illumina NextSeq 500
+198,SRR16194962,GSM5609507,RNA-Seq,cDNA,GSM5609507,Smart-HCT-83,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 083,GPL18573,Illumina NextSeq 500
+199,SRR16194961,GSM5609508,RNA-Seq,cDNA,GSM5609508,Smart-HCT-84,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 084,GPL18573,Illumina NextSeq 500
+200,SRR16194960,GSM5609509,RNA-Seq,cDNA,GSM5609509,Smart-HCT-85,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 085,GPL18573,Illumina NextSeq 500
+201,SRR16194959,GSM5609510,RNA-Seq,cDNA,GSM5609510,Smart-HCT-86,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 086,GPL18573,Illumina NextSeq 500
+202,SRR16194958,GSM5609511,RNA-Seq,cDNA,GSM5609511,Smart-HCT-87,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 087,GPL18573,Illumina NextSeq 500
+203,SRR16194957,GSM5609512,RNA-Seq,cDNA,GSM5609512,Smart-HCT-88,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 088,GPL18573,Illumina NextSeq 500
+204,SRR16194956,GSM5609513,RNA-Seq,cDNA,GSM5609513,Smart-HCT-89,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 089,GPL18573,Illumina NextSeq 500
+205,SRR16194955,GSM5609514,RNA-Seq,cDNA,GSM5609514,Smart-HCT-90,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 090,GPL18573,Illumina NextSeq 500
+206,SRR16194954,GSM5609515,RNA-Seq,cDNA,GSM5609515,Smart-HCT-91,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 091,GPL18573,Illumina NextSeq 500
+207,SRR16194953,GSM5609516,RNA-Seq,cDNA,GSM5609516,Smart-HCT-92,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 092,GPL18573,Illumina NextSeq 500
+208,SRR16194952,GSM5609517,RNA-Seq,cDNA,GSM5609517,Smart-HCT-93,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 093,GPL18573,Illumina NextSeq 500
+209,SRR16194951,GSM5609518,RNA-Seq,cDNA,GSM5609518,Smart-HCT-94,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 094,GPL18573,Illumina NextSeq 500
+210,SRR16194950,GSM5609519,RNA-Seq,cDNA,GSM5609519,Smart-HCT-95,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 095,GPL18573,Illumina NextSeq 500
+211,SRR16194949,GSM5609520,RNA-Seq,cDNA,GSM5609520,Smart-HCT-96,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 096,GPL18573,Illumina NextSeq 500
+212,SRR16194948,GSM5609521,OTHER,other,GSM5609521,HCT116 scONEseq 001,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 097,GPL18573,Illumina NextSeq 500
+213,SRR16194947,GSM5609522,OTHER,other,GSM5609522,HCT116 scONEseq 002,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 098,GPL18573,Illumina NextSeq 500
+214,SRR16194946,GSM5609523,OTHER,other,GSM5609523,HCT116 scONEseq 003,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 099,GPL18573,Illumina NextSeq 500
+215,SRR16194945,GSM5609668,OTHER,other,GSM5609668,HUVEC+H9 scONEseq 050,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 050,GPL18573,Illumina NextSeq 500
+216,SRR16194944,GSM5609669,OTHER,other,GSM5609669,HUVEC+H9 scONEseq 051,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 051,GPL18573,Illumina NextSeq 500
+217,SRR16194943,GSM5609670,OTHER,other,GSM5609670,HUVEC+H9 scONEseq 052,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 052,GPL18573,Illumina NextSeq 500
+218,SRR16194941,GSM5609672,OTHER,other,GSM5609672,HUVEC+H9 scONEseq 054,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 054,GPL18573,Illumina NextSeq 500
+219,SRR16194942,GSM5609671,OTHER,other,GSM5609671,HUVEC+H9 scONEseq 053,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 053,GPL18573,Illumina NextSeq 500
+220,SRR16194940,GSM5609673,OTHER,other,GSM5609673,HUVEC+H9 scONEseq 055,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 055,GPL18573,Illumina NextSeq 500
+221,SRR16194939,GSM5609674,OTHER,other,GSM5609674,HUVEC+H9 scONEseq 056,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 056,GPL18573,Illumina NextSeq 500
+222,SRR16194938,GSM5609675,OTHER,other,GSM5609675,HUVEC+H9 scONEseq 057,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 057,GPL18573,Illumina NextSeq 500
+223,SRR16194937,GSM5609676,OTHER,other,GSM5609676,HUVEC+H9 scONEseq 058,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 058,GPL18573,Illumina NextSeq 500
+224,SRR16194936,GSM5609677,OTHER,other,GSM5609677,HUVEC+H9 scONEseq 059,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 059,GPL18573,Illumina NextSeq 500
+225,SRR16194935,GSM5609678,OTHER,other,GSM5609678,HUVEC+H9 scONEseq 060,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 060,GPL18573,Illumina NextSeq 500
+226,SRR16194934,GSM5609679,OTHER,other,GSM5609679,HUVEC+H9 scONEseq 061,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 061,GPL18573,Illumina NextSeq 500
+227,SRR16194933,GSM5609680,OTHER,other,GSM5609680,HUVEC+H9 scONEseq 062,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 062,GPL18573,Illumina NextSeq 500
+228,SRR16194932,GSM5609681,OTHER,other,GSM5609681,HUVEC+H9 scONEseq 063,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 063,GPL18573,Illumina NextSeq 500
+229,SRR16194931,GSM5609682,OTHER,other,GSM5609682,HUVEC+H9 scONEseq 064,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 064,GPL18573,Illumina NextSeq 500
+230,SRR16194930,GSM5609683,OTHER,other,GSM5609683,HUVEC+H9 scONEseq 065,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 065,GPL18573,Illumina NextSeq 500
+231,SRR16194929,GSM5609684,OTHER,other,GSM5609684,HUVEC+H9 scONEseq 066,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 066,GPL18573,Illumina NextSeq 500
+232,SRR16194928,GSM5609685,OTHER,other,GSM5609685,HUVEC+H9 scONEseq 067,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 067,GPL18573,Illumina NextSeq 500
+233,SRR16194927,GSM5609686,OTHER,other,GSM5609686,NPC43 scONEseq 001,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 001,GPL18573,Illumina NextSeq 500
+234,SRR16194926,GSM5609687,OTHER,other,GSM5609687,NPC43 scONEseq 002,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 002,GPL18573,Illumina NextSeq 500
+235,SRR16194925,GSM5609688,OTHER,other,GSM5609688,NPC43 scONEseq 003,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 003,GPL18573,Illumina NextSeq 500
+236,SRR16194924,GSM5609689,OTHER,other,GSM5609689,NPC43 scONEseq 004,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 004,GPL18573,Illumina NextSeq 500
+237,SRR16194923,GSM5609690,OTHER,other,GSM5609690,NPC43 scONEseq 005,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 005,GPL18573,Illumina NextSeq 500
+238,SRR16194922,GSM5609691,OTHER,other,GSM5609691,NPC43 scONEseq 006,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 006,GPL18573,Illumina NextSeq 500
+239,SRR16194921,GSM5609764,OTHER,other,GSM5609764,NPC43 scONEseq 079,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 079,GPL18573,Illumina NextSeq 500
+240,SRR16194920,GSM5609765,OTHER,other,GSM5609765,NPC43 scONEseq 080,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 080,GPL18573,Illumina NextSeq 500
+241,SRR16194919,GSM5609766,OTHER,other,GSM5609766,NPC43 scONEseq 081,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 081,GPL18573,Illumina NextSeq 500
+242,SRR16194918,GSM5609767,OTHER,other,GSM5609767,NPC43 scONEseq 082,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 082,GPL18573,Illumina NextSeq 500
+243,SRR16194917,GSM5609768,OTHER,other,GSM5609768,NPC43 scONEseq 083,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 083,GPL18573,Illumina NextSeq 500
+244,SRR16194916,GSM5609769,OTHER,other,GSM5609769,NPC43 scONEseq 084,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 084,GPL18573,Illumina NextSeq 500
+245,SRR16194915,GSM5609770,OTHER,other,GSM5609770,NPC43 scONEseq 085,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 085,GPL18573,Illumina NextSeq 500
+246,SRR16194914,GSM5609771,OTHER,other,GSM5609771,NPC43 scONEseq 086,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 086,GPL18573,Illumina NextSeq 500
+247,SRR16194913,GSM5609772,OTHER,other,GSM5609772,NPC43 scONEseq 087,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 087,GPL18573,Illumina NextSeq 500
+248,SRR16194912,GSM5609773,OTHER,other,GSM5609773,NPC43 scONEseq 088,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 088,GPL18573,Illumina NextSeq 500
+249,SRR16194911,GSM5609774,OTHER,other,GSM5609774,NPC43 scONEseq 089,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 089,GPL18573,Illumina NextSeq 500
+250,SRR16194910,GSM5609775,OTHER,other,GSM5609775,NPC43 scONEseq 090,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 090,GPL18573,Illumina NextSeq 500
+251,SRR16194909,GSM5609776,OTHER,other,GSM5609776,NPC43 scONEseq 091,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 091,GPL18573,Illumina NextSeq 500
+252,SRR16194908,GSM5609777,OTHER,other,GSM5609777,NPC43 scONEseq 092,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 092,GPL18573,Illumina NextSeq 500
+253,SRR16194907,GSM5609778,OTHER,other,GSM5609778,NPC43 scONEseq 093,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 093,GPL18573,Illumina NextSeq 500
+254,SRR16194906,GSM5609779,OTHER,other,GSM5609779,NPC43 scONEseq 094,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 094,GPL18573,Illumina NextSeq 500
+255,SRR16195336,GSM5609780,OTHER,other,GSM5609780,NPC43 scONEseq 095,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 095,GPL18573,Illumina NextSeq 500
+256,SRR16195335,GSM5609781,OTHER,other,GSM5609781,NPC43 scONEseq 096,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 096,GPL18573,Illumina NextSeq 500
+257,SRR16195334,GSM5609782,OTHER,other,GSM5609782,NPC43 scONEseq 097,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 097,GPL18573,Illumina NextSeq 500
+258,SRR16195333,GSM5609783,OTHER,other,GSM5609783,NPC43 scONEseq 098,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 098,GPL18573,Illumina NextSeq 500
+259,SRR16195332,GSM5609784,OTHER,other,GSM5609784,NPC43 scONEseq 099,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 099,GPL18573,Illumina NextSeq 500
+260,SRR16195328,GSM5609572,OTHER,other,GSM5609572,HCT116 scONEseq 052,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 148,GPL18573,Illumina NextSeq 500
+261,SRR16195327,GSM5609573,OTHER,other,GSM5609573,HCT116 scONEseq 053,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 149,GPL18573,Illumina NextSeq 500
+262,SRR16195331,GSM5609785,OTHER,other,GSM5609785,NPC43 scONEseq 100,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 100,GPL18573,Illumina NextSeq 500
+263,SRR16195330,GSM5609786,OTHER,other,GSM5609786,NPC43 scONEseq 101,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 101,GPL18573,Illumina NextSeq 500
+264,SRR16195329,GSM5609787,OTHER,other,GSM5609787,NPC43 scONEseq 102,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 102,GPL18573,Illumina NextSeq 500
+265,SRR16195325,GSM5609575,OTHER,other,GSM5609575,HCT116 scONEseq 055,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 151,GPL18573,Illumina NextSeq 500
+266,SRR16195326,GSM5609574,OTHER,other,GSM5609574,HCT116 scONEseq 054,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 150,GPL18573,Illumina NextSeq 500
+267,SRR16195324,GSM5609576,OTHER,other,GSM5609576,HCT116 scONEseq 056,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 152,GPL18573,Illumina NextSeq 500
+268,SRR16195323,GSM5609577,OTHER,other,GSM5609577,HCT116 scONEseq 057,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 153,GPL18573,Illumina NextSeq 500
+269,SRR16195322,GSM5609578,OTHER,other,GSM5609578,HCT116 scONEseq 058,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 154,GPL18573,Illumina NextSeq 500
+270,SRR16195321,GSM5609579,OTHER,other,GSM5609579,HCT116 scONEseq 059,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 155,GPL18573,Illumina NextSeq 500
+271,SRR16195320,GSM5609580,OTHER,other,GSM5609580,HCT116 scONEseq 060,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 156,GPL18573,Illumina NextSeq 500
+272,SRR16195319,GSM5609581,OTHER,other,GSM5609581,HCT116 scONEseq 061,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 157,GPL18573,Illumina NextSeq 500
+273,SRR16195318,GSM5609582,OTHER,other,GSM5609582,HCT116 scONEseq 062,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 158,GPL18573,Illumina NextSeq 500
+274,SRR16195317,GSM5609583,OTHER,other,GSM5609583,HCT116 scONEseq 063,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 159,GPL18573,Illumina NextSeq 500
+275,SRR16195316,GSM5609584,OTHER,other,GSM5609584,HCT116 scONEseq 064,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 160,GPL18573,Illumina NextSeq 500
+276,SRR16195315,GSM5609585,OTHER,other,GSM5609585,HCT116 scONEseq 065,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 161,GPL18573,Illumina NextSeq 500
+277,SRR16195314,GSM5609586,OTHER,other,GSM5609586,HCT116 scONEseq 066,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 162,GPL18573,Illumina NextSeq 500
+278,SRR16195313,GSM5609587,OTHER,other,GSM5609587,HCT116 scONEseq 067,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 163,GPL18573,Illumina NextSeq 500
+279,SRR16195312,GSM5609588,OTHER,other,GSM5609588,HCT116 scONEseq 068,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 164,GPL18573,Illumina NextSeq 500
+280,SRR16195311,GSM5609589,OTHER,other,GSM5609589,HCT116 scONEseq 069,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 165,GPL18573,Illumina NextSeq 500
+281,SRR16195310,GSM5609590,OTHER,other,GSM5609590,HCT116 scONEseq 070,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 166,GPL18573,Illumina NextSeq 500
+282,SRR16195309,GSM5609591,OTHER,other,GSM5609591,HCT116 scONEseq 071,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 167,GPL18573,Illumina NextSeq 500
+283,SRR16195308,GSM5609592,OTHER,other,GSM5609592,HCT116 scONEseq 072,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 168,GPL18573,Illumina NextSeq 500
+284,SRR16195307,GSM5609593,OTHER,other,GSM5609593,HCT116 scONEseq 073,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 169,GPL18573,Illumina NextSeq 500
+285,SRR16195306,GSM5609594,OTHER,other,GSM5609594,HCT116 scONEseq 074,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 170,GPL18573,Illumina NextSeq 500
+286,SRR16195305,GSM5609595,OTHER,other,GSM5609595,HCT116 scONEseq 075,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 171,GPL18573,Illumina NextSeq 500
+287,SRR16195304,GSM5609524,OTHER,other,GSM5609524,HCT116 scONEseq 004,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 100,GPL18573,Illumina NextSeq 500
+288,SRR16195303,GSM5609525,OTHER,other,GSM5609525,HCT116 scONEseq 005,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 101,GPL18573,Illumina NextSeq 500
+289,SRR16195302,GSM5609526,OTHER,other,GSM5609526,HCT116 scONEseq 006,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 102,GPL18573,Illumina NextSeq 500
+290,SRR16195301,GSM5609527,OTHER,other,GSM5609527,HCT116 scONEseq 007,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 103,GPL18573,Illumina NextSeq 500
+291,SRR16195300,GSM5609528,OTHER,other,GSM5609528,HCT116 scONEseq 008,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 104,GPL18573,Illumina NextSeq 500
+292,SRR16195299,GSM5609529,OTHER,other,GSM5609529,HCT116 scONEseq 009,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 105,GPL18573,Illumina NextSeq 500
+293,SRR16195298,GSM5609530,OTHER,other,GSM5609530,HCT116 scONEseq 010,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 106,GPL18573,Illumina NextSeq 500
+294,SRR16195297,GSM5609531,OTHER,other,GSM5609531,HCT116 scONEseq 011,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 107,GPL18573,Illumina NextSeq 500
+295,SRR16195296,GSM5609532,OTHER,other,GSM5609532,HCT116 scONEseq 012,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 108,GPL18573,Illumina NextSeq 500
+296,SRR16195295,GSM5609533,OTHER,other,GSM5609533,HCT116 scONEseq 013,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 109,GPL18573,Illumina NextSeq 500
+297,SRR16195294,GSM5609534,OTHER,other,GSM5609534,HCT116 scONEseq 014,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 110,GPL18573,Illumina NextSeq 500
+298,SRR16195293,GSM5609535,OTHER,other,GSM5609535,HCT116 scONEseq 015,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 111,GPL18573,Illumina NextSeq 500
+299,SRR16195292,GSM5609536,OTHER,other,GSM5609536,HCT116 scONEseq 016,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 112,GPL18573,Illumina NextSeq 500
+300,SRR16195291,GSM5609537,OTHER,other,GSM5609537,HCT116 scONEseq 017,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 113,GPL18573,Illumina NextSeq 500
+301,SRR16195290,GSM5609538,OTHER,other,GSM5609538,HCT116 scONEseq 018,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 114,GPL18573,Illumina NextSeq 500
+302,SRR16195289,GSM5609539,OTHER,other,GSM5609539,HCT116 scONEseq 019,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 115,GPL18573,Illumina NextSeq 500
+303,SRR16195288,GSM5609540,OTHER,other,GSM5609540,HCT116 scONEseq 020,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 116,GPL18573,Illumina NextSeq 500
+304,SRR16195287,GSM5609541,OTHER,other,GSM5609541,HCT116 scONEseq 021,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 117,GPL18573,Illumina NextSeq 500
+305,SRR16195286,GSM5609542,OTHER,other,GSM5609542,HCT116 scONEseq 022,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 118,GPL18573,Illumina NextSeq 500
+306,SRR16195285,GSM5609543,OTHER,other,GSM5609543,HCT116 scONEseq 023,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 119,GPL18573,Illumina NextSeq 500
+307,SRR16195284,GSM5609544,OTHER,other,GSM5609544,HCT116 scONEseq 024,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 120,GPL18573,Illumina NextSeq 500
+308,SRR16195283,GSM5609545,OTHER,other,GSM5609545,HCT116 scONEseq 025,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 121,GPL18573,Illumina NextSeq 500
+309,SRR16195282,GSM5609546,OTHER,other,GSM5609546,HCT116 scONEseq 026,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 122,GPL18573,Illumina NextSeq 500
+310,SRR16195281,GSM5609547,OTHER,other,GSM5609547,HCT116 scONEseq 027,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 123,GPL18573,Illumina NextSeq 500
+311,SRR16195280,GSM5609692,OTHER,other,GSM5609692,NPC43 scONEseq 007,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 007,GPL18573,Illumina NextSeq 500
+312,SRR16195279,GSM5609693,OTHER,other,GSM5609693,NPC43 scONEseq 008,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 008,GPL18573,Illumina NextSeq 500
+313,SRR16195278,GSM5609694,OTHER,other,GSM5609694,NPC43 scONEseq 009,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 009,GPL18573,Illumina NextSeq 500
+314,SRR16195277,GSM5609695,OTHER,other,GSM5609695,NPC43 scONEseq 010,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 010,GPL18573,Illumina NextSeq 500
+315,SRR16195276,GSM5609696,OTHER,other,GSM5609696,NPC43 scONEseq 011,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 011,GPL18573,Illumina NextSeq 500
+316,SRR16195275,GSM5609697,OTHER,other,GSM5609697,NPC43 scONEseq 012,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 012,GPL18573,Illumina NextSeq 500
+317,SRR16195274,GSM5609698,OTHER,other,GSM5609698,NPC43 scONEseq 013,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 013,GPL18573,Illumina NextSeq 500
+318,SRR16195273,GSM5609699,OTHER,other,GSM5609699,NPC43 scONEseq 014,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 014,GPL18573,Illumina NextSeq 500
+319,SRR16195272,GSM5609700,OTHER,other,GSM5609700,NPC43 scONEseq 015,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 015,GPL18573,Illumina NextSeq 500
+320,SRR16195271,GSM5609701,OTHER,other,GSM5609701,NPC43 scONEseq 016,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 016,GPL18573,Illumina NextSeq 500
+321,SRR16195270,GSM5609702,OTHER,other,GSM5609702,NPC43 scONEseq 017,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 017,GPL18573,Illumina NextSeq 500
+322,SRR16195269,GSM5609703,OTHER,other,GSM5609703,NPC43 scONEseq 018,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 018,GPL18573,Illumina NextSeq 500
+323,SRR16195268,GSM5609704,OTHER,other,GSM5609704,NPC43 scONEseq 019,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 019,GPL18573,Illumina NextSeq 500
+324,SRR16195267,GSM5609705,OTHER,other,GSM5609705,NPC43 scONEseq 020,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 020,GPL18573,Illumina NextSeq 500
+325,SRR16195266,GSM5609706,OTHER,other,GSM5609706,NPC43 scONEseq 021,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 021,GPL18573,Illumina NextSeq 500
+326,SRR16195265,GSM5609707,OTHER,other,GSM5609707,NPC43 scONEseq 022,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 022,GPL18573,Illumina NextSeq 500
+327,SRR16195264,GSM5609708,OTHER,other,GSM5609708,NPC43 scONEseq 023,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 023,GPL18573,Illumina NextSeq 500
+328,SRR16195263,GSM5609709,OTHER,other,GSM5609709,NPC43 scONEseq 024,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 024,GPL18573,Illumina NextSeq 500
+329,SRR16195262,GSM5609710,OTHER,other,GSM5609710,NPC43 scONEseq 025,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 025,GPL18573,Illumina NextSeq 500
+330,SRR16195261,GSM5609711,OTHER,other,GSM5609711,NPC43 scONEseq 026,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 026,GPL18573,Illumina NextSeq 500
+331,SRR16195260,GSM5609712,OTHER,other,GSM5609712,NPC43 scONEseq 027,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 027,GPL18573,Illumina NextSeq 500
+332,SRR16195259,GSM5609713,OTHER,other,GSM5609713,NPC43 scONEseq 028,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 028,GPL18573,Illumina NextSeq 500
+333,SRR16195258,GSM5609714,OTHER,other,GSM5609714,NPC43 scONEseq 029,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 029,GPL18573,Illumina NextSeq 500
+334,SRR16195257,GSM5609715,OTHER,other,GSM5609715,NPC43 scONEseq 030,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 030,GPL18573,Illumina NextSeq 500
+335,SRR16195256,GSM5609788,OTHER,other,GSM5609788,NPC43 scONEseq 103,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 103,GPL18573,Illumina NextSeq 500
+336,SRR16195255,GSM5609789,OTHER,other,GSM5609789,NPC43 scONEseq 104,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 104,GPL18573,Illumina NextSeq 500
+337,SRR16195254,GSM5609790,OTHER,other,GSM5609790,NPC43 scONEseq 105,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 105,GPL18573,Illumina NextSeq 500
+338,SRR16195253,GSM5609791,OTHER,other,GSM5609791,NPC43 scONEseq 106,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 106,GPL18573,Illumina NextSeq 500
+339,SRR16195252,GSM5609792,OTHER,other,GSM5609792,NPC43 scONEseq 107,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 107,GPL18573,Illumina NextSeq 500
+340,SRR16195251,GSM5609793,OTHER,other,GSM5609793,NPC43 scONEseq 108,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 108,GPL18573,Illumina NextSeq 500
+341,SRR16195250,GSM5609794,OTHER,other,GSM5609794,NPC43 scONEseq 109,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 109,GPL18573,Illumina NextSeq 500
+342,SRR16195249,GSM5609795,OTHER,other,GSM5609795,NPC43 scONEseq 110,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 110,GPL18573,Illumina NextSeq 500
+343,SRR16195248,GSM5609796,OTHER,other,GSM5609796,NPC43 scONEseq 111,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 111,GPL18573,Illumina NextSeq 500
+344,SRR16195247,GSM5609797,OTHER,other,GSM5609797,NPC43 scONEseq 112,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 112,GPL18573,Illumina NextSeq 500
+345,SRR16195246,GSM5609798,OTHER,other,GSM5609798,NPC43 scONEseq 113,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 113,GPL18573,Illumina NextSeq 500
+346,SRR16195245,GSM5609799,OTHER,other,GSM5609799,NPC43 scONEseq 114,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 114,GPL18573,Illumina NextSeq 500
+347,SRR16195244,GSM5609800,OTHER,other,GSM5609800,NPC43 scONEseq 115,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 115,GPL18573,Illumina NextSeq 500
+348,SRR16195243,GSM5609801,OTHER,other,GSM5609801,NPC43 scONEseq 116,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 116,GPL18573,Illumina NextSeq 500
+349,SRR16195242,GSM5609802,OTHER,other,GSM5609802,NPC43 scONEseq 117,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 117,GPL18573,Illumina NextSeq 500
+350,SRR16195241,GSM5609803,OTHER,other,GSM5609803,NPC43 scONEseq 118,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 118,GPL18573,Illumina NextSeq 500
+351,SRR16195240,GSM5609804,OTHER,other,GSM5609804,NPC43 scONEseq 119,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 119,GPL18573,Illumina NextSeq 500
+352,SRR16195239,GSM5609805,OTHER,other,GSM5609805,NPC43 scONEseq 120,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 120,GPL18573,Illumina NextSeq 500
+353,SRR16195238,GSM5609806,OTHER,other,GSM5609806,NPC43 scONEseq 121,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 121,GPL18573,Illumina NextSeq 500
+354,SRR16195237,GSM5609807,OTHER,other,GSM5609807,NPC43 scONEseq 122,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 122,GPL18573,Illumina NextSeq 500
+355,SRR16195232,GSM5609452,RNA-Seq,cDNA,GSM5609452,Smart-HCT-28,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 028,GPL18573,Illumina NextSeq 500
+356,SRR16195236,GSM5609808,OTHER,other,GSM5609808,NPC43 scONEseq 123,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 123,GPL18573,Illumina NextSeq 500
+357,SRR16195235,GSM5609809,OTHER,other,GSM5609809,NPC43 scONEseq 124,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 124,GPL18573,Illumina NextSeq 500
+358,SRR16195234,GSM5609810,OTHER,other,GSM5609810,NPC43 scONEseq 125,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 125,GPL18573,Illumina NextSeq 500
+359,SRR16195233,GSM5609811,OTHER,other,GSM5609811,NPC43 scONEseq 126,NPC43 cell line,other,transcriptomic,OTHER,NPC single cell 126,GPL18573,Illumina NextSeq 500
+360,SRR16195231,GSM5609453,RNA-Seq,cDNA,GSM5609453,Smart-HCT-29,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 029,GPL18573,Illumina NextSeq 500
+361,SRR16195230,GSM5609454,RNA-Seq,cDNA,GSM5609454,Smart-HCT-30,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 030,GPL18573,Illumina NextSeq 500
+362,SRR16195229,GSM5609455,RNA-Seq,cDNA,GSM5609455,Smart-HCT-31,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 031,GPL18573,Illumina NextSeq 500
+363,SRR16195228,GSM5609456,RNA-Seq,cDNA,GSM5609456,Smart-HCT-32,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 032,GPL18573,Illumina NextSeq 500
+364,SRR16195227,GSM5609457,RNA-Seq,cDNA,GSM5609457,Smart-HCT-33,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 033,GPL18573,Illumina NextSeq 500
+365,SRR16195226,GSM5609458,RNA-Seq,cDNA,GSM5609458,Smart-HCT-34,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 034,GPL18573,Illumina NextSeq 500
+366,SRR16195225,GSM5609459,RNA-Seq,cDNA,GSM5609459,Smart-HCT-35,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 035,GPL18573,Illumina NextSeq 500
+367,SRR16195224,GSM5609460,RNA-Seq,cDNA,GSM5609460,Smart-HCT-36,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 036,GPL18573,Illumina NextSeq 500
+368,SRR16195223,GSM5609461,RNA-Seq,cDNA,GSM5609461,Smart-HCT-37,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 037,GPL18573,Illumina NextSeq 500
+369,SRR16195222,GSM5609462,RNA-Seq,cDNA,GSM5609462,Smart-HCT-38,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 038,GPL18573,Illumina NextSeq 500
+370,SRR16195221,GSM5609463,RNA-Seq,cDNA,GSM5609463,Smart-HCT-39,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 039,GPL18573,Illumina NextSeq 500
+371,SRR16195220,GSM5609464,RNA-Seq,cDNA,GSM5609464,Smart-HCT-40,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 040,GPL18573,Illumina NextSeq 500
+372,SRR16195219,GSM5609465,RNA-Seq,cDNA,GSM5609465,Smart-HCT-41,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 041,GPL18573,Illumina NextSeq 500
+373,SRR16195217,GSM5609467,RNA-Seq,cDNA,GSM5609467,Smart-HCT-43,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 043,GPL18573,Illumina NextSeq 500
+374,SRR16195218,GSM5609466,RNA-Seq,cDNA,GSM5609466,Smart-HCT-42,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 042,GPL18573,Illumina NextSeq 500
+375,SRR16195216,GSM5609468,RNA-Seq,cDNA,GSM5609468,Smart-HCT-44,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 044,GPL18573,Illumina NextSeq 500
+376,SRR16195215,GSM5609469,RNA-Seq,cDNA,GSM5609469,Smart-HCT-45,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 045,GPL18573,Illumina NextSeq 500
+377,SRR16195214,GSM5609470,RNA-Seq,cDNA,GSM5609470,Smart-HCT-46,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 046,GPL18573,Illumina NextSeq 500
+378,SRR16195213,GSM5609471,RNA-Seq,cDNA,GSM5609471,Smart-HCT-47,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 047,GPL18573,Illumina NextSeq 500
+379,SRR16195212,GSM5609472,RNA-Seq,cDNA,GSM5609472,Smart-HCT-48,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 048,GPL18573,Illumina NextSeq 500
+380,SRR16195211,GSM5609473,RNA-Seq,cDNA,GSM5609473,Smart-HCT-49,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 049,GPL18573,Illumina NextSeq 500
+381,SRR16195210,GSM5609474,RNA-Seq,cDNA,GSM5609474,Smart-HCT-50,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 050,GPL18573,Illumina NextSeq 500
+382,SRR16195209,GSM5609475,RNA-Seq,cDNA,GSM5609475,Smart-HCT-51,HCT116 cell line,cDNA,transcriptomic,RNA-Seq,HCT116 single cell 051,GPL18573,Illumina NextSeq 500
+383,SRR16195208,GSM5609548,OTHER,other,GSM5609548,HCT116 scONEseq 028,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 124,GPL18573,Illumina NextSeq 500
+384,SRR16195207,GSM5609549,OTHER,other,GSM5609549,HCT116 scONEseq 029,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 125,GPL18573,Illumina NextSeq 500
+385,SRR16195206,GSM5609550,OTHER,other,GSM5609550,HCT116 scONEseq 030,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 126,GPL18573,Illumina NextSeq 500
+386,SRR16195205,GSM5609551,OTHER,other,GSM5609551,HCT116 scONEseq 031,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 127,GPL18573,Illumina NextSeq 500
+387,SRR16195204,GSM5609552,OTHER,other,GSM5609552,HCT116 scONEseq 032,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 128,GPL18573,Illumina NextSeq 500
+388,SRR16195203,GSM5609553,OTHER,other,GSM5609553,HCT116 scONEseq 033,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 129,GPL18573,Illumina NextSeq 500
+389,SRR16195202,GSM5609554,OTHER,other,GSM5609554,HCT116 scONEseq 034,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 130,GPL18573,Illumina NextSeq 500
+390,SRR16195201,GSM5609555,OTHER,other,GSM5609555,HCT116 scONEseq 035,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 131,GPL18573,Illumina NextSeq 500
+391,SRR16195200,GSM5609556,OTHER,other,GSM5609556,HCT116 scONEseq 036,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 132,GPL18573,Illumina NextSeq 500
+392,SRR16195199,GSM5609557,OTHER,other,GSM5609557,HCT116 scONEseq 037,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 133,GPL18573,Illumina NextSeq 500
+393,SRR16195198,GSM5609558,OTHER,other,GSM5609558,HCT116 scONEseq 038,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 134,GPL18573,Illumina NextSeq 500
+394,SRR16195197,GSM5609559,OTHER,other,GSM5609559,HCT116 scONEseq 039,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 135,GPL18573,Illumina NextSeq 500
+395,SRR16195196,GSM5609560,OTHER,other,GSM5609560,HCT116 scONEseq 040,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 136,GPL18573,Illumina NextSeq 500
+396,SRR16195195,GSM5609561,OTHER,other,GSM5609561,HCT116 scONEseq 041,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 137,GPL18573,Illumina NextSeq 500
+397,SRR16195194,GSM5609562,OTHER,other,GSM5609562,HCT116 scONEseq 042,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 138,GPL18573,Illumina NextSeq 500
+398,SRR16195193,GSM5609563,OTHER,other,GSM5609563,HCT116 scONEseq 043,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 139,GPL18573,Illumina NextSeq 500
+399,SRR16195192,GSM5609564,OTHER,other,GSM5609564,HCT116 scONEseq 044,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 140,GPL18573,Illumina NextSeq 500
+400,SRR16195191,GSM5609565,OTHER,other,GSM5609565,HCT116 scONEseq 045,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 141,GPL18573,Illumina NextSeq 500
+401,SRR16195190,GSM5609566,OTHER,other,GSM5609566,HCT116 scONEseq 046,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 142,GPL18573,Illumina NextSeq 500
+402,SRR16195189,GSM5609567,OTHER,other,GSM5609567,HCT116 scONEseq 047,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 143,GPL18573,Illumina NextSeq 500
+403,SRR16195188,GSM5609568,OTHER,other,GSM5609568,HCT116 scONEseq 048,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 144,GPL18573,Illumina NextSeq 500
+404,SRR16195187,GSM5609569,OTHER,other,GSM5609569,HCT116 scONEseq 049,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 145,GPL18573,Illumina NextSeq 500
+405,SRR16195186,GSM5609570,OTHER,other,GSM5609570,HCT116 scONEseq 050,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 146,GPL18573,Illumina NextSeq 500
+406,SRR16195185,GSM5609571,OTHER,other,GSM5609571,HCT116 scONEseq 051,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 147,GPL18573,Illumina NextSeq 500
+407,SRR16195184,GSM5609596,OTHER,other,GSM5609596,HCT116 scONEseq 076,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 172,GPL18573,Illumina NextSeq 500
+408,SRR16195183,GSM5609597,OTHER,other,GSM5609597,HCT116 scONEseq 077,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 173,GPL18573,Illumina NextSeq 500
+409,SRR16195182,GSM5609598,OTHER,other,GSM5609598,HCT116 scONEseq 078,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 174,GPL18573,Illumina NextSeq 500
+410,SRR16195180,GSM5609600,OTHER,other,GSM5609600,HCT116 scONEseq 080,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 176,GPL18573,Illumina NextSeq 500
+411,SRR16195181,GSM5609599,OTHER,other,GSM5609599,HCT116 scONEseq 079,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 175,GPL18573,Illumina NextSeq 500
+412,SRR16195179,GSM5609601,OTHER,other,GSM5609601,HCT116 scONEseq 081,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 177,GPL18573,Illumina NextSeq 500
+413,SRR16195178,GSM5609602,OTHER,other,GSM5609602,HCT116 scONEseq 082,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 178,GPL18573,Illumina NextSeq 500
+414,SRR16195177,GSM5609603,OTHER,other,GSM5609603,HCT116 scONEseq 083,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 179,GPL18573,Illumina NextSeq 500
+415,SRR16195176,GSM5609604,OTHER,other,GSM5609604,HCT116 scONEseq 084,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 180,GPL18573,Illumina NextSeq 500
+416,SRR16195175,GSM5609605,OTHER,other,GSM5609605,HCT116 scONEseq 085,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 181,GPL18573,Illumina NextSeq 500
+417,SRR16195174,GSM5609606,OTHER,other,GSM5609606,HCT116 scONEseq 086,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 182,GPL18573,Illumina NextSeq 500
+418,SRR16195173,GSM5609607,OTHER,other,GSM5609607,HCT116 scONEseq 087,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 183,GPL18573,Illumina NextSeq 500
+419,SRR16195172,GSM5609608,OTHER,other,GSM5609608,HCT116 scONEseq 088,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 184,GPL18573,Illumina NextSeq 500
+420,SRR16195171,GSM5609609,OTHER,other,GSM5609609,HCT116 scONEseq 089,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 185,GPL18573,Illumina NextSeq 500
+421,SRR16195170,GSM5609610,OTHER,other,GSM5609610,HCT116 scONEseq 090,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 186,GPL18573,Illumina NextSeq 500
+422,SRR16195169,GSM5609611,OTHER,other,GSM5609611,HCT116 scONEseq 091,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 187,GPL18573,Illumina NextSeq 500
+423,SRR16195168,GSM5609612,OTHER,other,GSM5609612,HCT116 scONEseq 092,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 188,GPL18573,Illumina NextSeq 500
+424,SRR16195167,GSM5609613,OTHER,other,GSM5609613,HCT116 scONEseq 093,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 189,GPL18573,Illumina NextSeq 500
+425,SRR16195166,GSM5609614,OTHER,other,GSM5609614,HCT116 scONEseq 094,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 190,GPL18573,Illumina NextSeq 500
+426,SRR16195165,GSM5609615,OTHER,other,GSM5609615,HCT116 scONEseq 095,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 191,GPL18573,Illumina NextSeq 500
+427,SRR16195164,GSM5609616,OTHER,other,GSM5609616,HCT116 scONEseq 096,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 192,GPL18573,Illumina NextSeq 500
+428,SRR16195163,GSM5609617,OTHER,other,GSM5609617,HCT116 scONEseq 097,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 193,GPL18573,Illumina NextSeq 500
+429,SRR16195162,GSM5609618,OTHER,other,GSM5609618,HCT116 scONEseq 098,HCT116 cell line,other,transcriptomic,OTHER,HCT116 single cell 194,GPL18573,Illumina NextSeq 500
+430,SRR16195161,GSM5609619,OTHER,other,GSM5609619,HUVEC+H9 scONEseq 001,HUVEC+H9 cell line co-culture,other,transcriptomic,OTHER,Normal single cell 001,GPL18573,Illumina NextSeq 500
+431,SRR22047574,GSM6682928,OTHER,other,GSM6682928,"HCT116, live whole cell, cell 002",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 002",GPL28038,DNBSEQ-G400
+432,SRR22047575,GSM6682926,OTHER,other,GSM6682926,"HCT116, live whole cell, cell 001",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 001",GPL28038,DNBSEQ-G400
+433,SRR22047573,GSM6682929,OTHER,other,GSM6682929,"HCT116, live whole cell, cell 003",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 003",GPL28038,DNBSEQ-G400
+434,SRR22047572,GSM6682930,OTHER,other,GSM6682930,"HCT116, live whole cell, cell 004",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 004",GPL28038,DNBSEQ-G400
+435,SRR22047571,GSM6682965,OTHER,other,GSM6682965,"HCT116, live whole cell, cell 037",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 037",GPL28038,DNBSEQ-G400
+436,SRR22047570,GSM6682966,OTHER,other,GSM6682966,"HCT116, live whole cell, cell 038",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 038",GPL28038,DNBSEQ-G400
+437,SRR22047569,GSM6682967,OTHER,other,GSM6682967,"HCT116, live whole cell, cell 039",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 039",GPL28038,DNBSEQ-G400
+438,SRR22047568,GSM6682968,OTHER,other,GSM6682968,"HCT116, live whole cell, cell 040",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 040",GPL28038,DNBSEQ-G400
+439,SRR22047567,GSM6682969,OTHER,other,GSM6682969,"HCT116, live whole cell, cell 041",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 041",GPL28038,DNBSEQ-G400
+440,SRR22047566,GSM6682970,OTHER,other,GSM6682970,"HCT116, live whole cell, cell 042",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 042",GPL28038,DNBSEQ-G400
+441,SRR22047565,GSM6682971,OTHER,other,GSM6682971,"HCT116, live whole cell, cell 043",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 043",GPL28038,DNBSEQ-G400
+442,SRR22047564,GSM6682972,OTHER,other,GSM6682972,"HCT116, live whole cell, cell 044",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 044",GPL28038,DNBSEQ-G400
+443,SRR22047563,GSM6682973,OTHER,other,GSM6682973,"HCT116, live whole cell, cell 045",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 045",GPL28038,DNBSEQ-G400
+444,SRR22047562,GSM6682975,OTHER,other,GSM6682975,"HCT116, live whole cell, cell 046",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 046",GPL28038,DNBSEQ-G400
+445,SRR22047561,GSM6682976,OTHER,other,GSM6682976,"HCT116, live whole cell, cell 047",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 047",GPL28038,DNBSEQ-G400
+446,SRR22047560,GSM6682977,OTHER,other,GSM6682977,"HCT116, live whole cell, cell 048",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 048",GPL28038,DNBSEQ-G400
+447,SRR22047559,GSM6682978,OTHER,other,GSM6682978,"HCT116, live whole cell, cell 049",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 049",GPL28038,DNBSEQ-G400
+448,SRR22047558,GSM6682979,OTHER,other,GSM6682979,"HCT116, live whole cell, cell 050",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 050",GPL28038,DNBSEQ-G400
+449,SRR22047557,GSM6682980,OTHER,other,GSM6682980,"HCT116, live whole cell, cell 051",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 051",GPL28038,DNBSEQ-G400
+450,SRR22047556,GSM6682981,OTHER,other,GSM6682981,"HCT116, live whole cell, cell 052",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 052",GPL28038,DNBSEQ-G400
+451,SRR22047555,GSM6682982,OTHER,other,GSM6682982,"HCT116, live whole cell, cell 053",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 053",GPL28038,DNBSEQ-G400
+452,SRR22047554,GSM6682983,OTHER,other,GSM6682983,"HCT116, live whole cell, cell 054",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 054",GPL28038,DNBSEQ-G400
+453,SRR22047553,GSM6682984,OTHER,other,GSM6682984,"HCT116, live whole cell, cell 055",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 055",GPL28038,DNBSEQ-G400
+454,SRR22047552,GSM6682985,OTHER,other,GSM6682985,"HCT116, live whole cell, cell 056",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 056",GPL28038,DNBSEQ-G400
+455,SRR22047551,GSM6682986,OTHER,other,GSM6682986,"HCT116, live whole cell, cell 057",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 057",GPL28038,DNBSEQ-G400
+456,SRR22047550,GSM6682987,OTHER,other,GSM6682987,"HCT116, live whole cell, cell 058",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 058",GPL28038,DNBSEQ-G400
+457,SRR22047549,GSM6682988,OTHER,other,GSM6682988,"HCT116, live whole cell, cell 059",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 059",GPL28038,DNBSEQ-G400
+458,SRR22047548,GSM6682989,OTHER,other,GSM6682989,"HCT116, live whole cell, cell 060",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 060",GPL28038,DNBSEQ-G400
+459,SRR22047547,GSM6682990,OTHER,other,GSM6682990,"HCT116, live whole cell, cell 061",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 061",GPL28038,DNBSEQ-G400
+460,SRR22047546,GSM6682991,OTHER,other,GSM6682991,"HCT116, live whole cell, cell 062",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 062",GPL28038,DNBSEQ-G400
+461,SRR22047545,GSM6682993,OTHER,other,GSM6682993,"HCT116, live whole cell, cell 063",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 063",GPL28038,DNBSEQ-G400
+462,SRR22047544,GSM6682994,OTHER,other,GSM6682994,"HCT116, live whole cell, cell 064",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 064",GPL28038,DNBSEQ-G400
+463,SRR22047543,GSM6682995,OTHER,other,GSM6682995,"HCT116, live whole cell, cell 065",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 065",GPL28038,DNBSEQ-G400
+464,SRR22047542,GSM6682996,OTHER,other,GSM6682996,"HCT116, live whole cell, cell 066",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 066",GPL28038,DNBSEQ-G400
+465,SRR22047541,GSM6682997,OTHER,other,GSM6682997,"HCT116, live whole cell, cell 067",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 067",GPL28038,DNBSEQ-G400
+466,SRR22047540,GSM6682998,OTHER,other,GSM6682998,"HCT116, live whole cell, cell 068",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 068",GPL28038,DNBSEQ-G400
+467,SRR22047539,GSM6683068,OTHER,other,GSM6683068,"HCT116, extracted nuclei, cell 041",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 041",GPL28038,DNBSEQ-G400
+468,SRR22047538,GSM6683069,OTHER,other,GSM6683069,"HCT116, extracted nuclei, cell 042",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 042",GPL28038,DNBSEQ-G400
+469,SRR22047537,GSM6683070,OTHER,other,GSM6683070,"HCT116, extracted nuclei, cell 043",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 043",GPL28038,DNBSEQ-G400
+470,SRR22047535,GSM6683072,OTHER,other,GSM6683072,"HCT116, extracted nuclei, cell 045",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 045",GPL28038,DNBSEQ-G400
+471,SRR22047536,GSM6683071,OTHER,other,GSM6683071,"HCT116, extracted nuclei, cell 044",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 044",GPL28038,DNBSEQ-G400
+472,SRR22047533,GSM6683074,OTHER,other,GSM6683074,"HCT116, extracted nuclei, cell 047",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 047",GPL28038,DNBSEQ-G400
+473,SRR22047534,GSM6683073,OTHER,other,GSM6683073,"HCT116, extracted nuclei, cell 046",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 046",GPL28038,DNBSEQ-G400
+474,SRR22047532,GSM6683075,OTHER,other,GSM6683075,"HCT116, extracted nuclei, cell 048",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 048",GPL28038,DNBSEQ-G400
+475,SRR22047531,GSM6683076,OTHER,other,GSM6683076,"HCT116, extracted nuclei, cell 049",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 049",GPL28038,DNBSEQ-G400
+476,SRR22047530,GSM6683077,OTHER,other,GSM6683077,"HCT116, extracted nuclei, cell 050",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 050",GPL28038,DNBSEQ-G400
+477,SRR22047529,GSM6683078,OTHER,other,GSM6683078,"HCT116, extracted nuclei, cell 051",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 051",GPL28038,DNBSEQ-G400
+478,SRR22047528,GSM6683079,OTHER,other,GSM6683079,"HCT116, extracted nuclei, cell 052",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 052",GPL28038,DNBSEQ-G400
+479,SRR22047527,GSM6683080,OTHER,other,GSM6683080,"HCT116, extracted nuclei, cell 053",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 053",GPL28038,DNBSEQ-G400
+480,SRR22047526,GSM6683081,OTHER,other,GSM6683081,"HCT116, extracted nuclei, cell 054",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 054",GPL28038,DNBSEQ-G400
+481,SRR22047525,GSM6683082,OTHER,other,GSM6683082,"HCT116, extracted nuclei, cell 055",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 055",GPL28038,DNBSEQ-G400
+482,SRR22047524,GSM6683083,OTHER,other,GSM6683083,"HCT116, extracted nuclei, cell 056",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 056",GPL28038,DNBSEQ-G400
+483,SRR22047523,GSM6683085,OTHER,other,GSM6683085,"HCT116, extracted nuclei, cell 057",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 057",GPL28038,DNBSEQ-G400
+484,SRR22047522,GSM6683086,OTHER,other,GSM6683086,"HCT116, extracted nuclei, cell 058",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 058",GPL28038,DNBSEQ-G400
+485,SRR22047521,GSM6683087,OTHER,other,GSM6683087,"HCT116, extracted nuclei, cell 059",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 059",GPL28038,DNBSEQ-G400
+486,SRR22047520,GSM6683088,OTHER,other,GSM6683088,"HCT116, extracted nuclei, cell 060",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 060",GPL28038,DNBSEQ-G400
+487,SRR22047519,GSM6683089,OTHER,other,GSM6683089,"HCT116, extracted nuclei, cell 061",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 061",GPL28038,DNBSEQ-G400
+488,SRR22047518,GSM6683090,OTHER,other,GSM6683090,"HCT116, extracted nuclei, cell 062",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 062",GPL28038,DNBSEQ-G400
+489,SRR22047517,GSM6683091,OTHER,other,GSM6683091,"HCT116, extracted nuclei, cell 063",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 063",GPL28038,DNBSEQ-G400
+490,SRR22047516,GSM6683092,OTHER,other,GSM6683092,"HCT116, extracted nuclei, cell 064",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 064",GPL28038,DNBSEQ-G400
+491,SRR22047515,GSM6683093,OTHER,other,GSM6683093,"HCT116, extracted nuclei, cell 065",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 065",GPL28038,DNBSEQ-G400
+492,SRR22047514,GSM6683094,OTHER,other,GSM6683094,"HCT116, extracted nuclei, cell 066",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 066",GPL28038,DNBSEQ-G400
+493,SRR22047513,GSM6683095,OTHER,other,GSM6683095,"HCT116, extracted nuclei, cell 067",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 067",GPL28038,DNBSEQ-G400
+494,SRR22047512,GSM6683096,OTHER,other,GSM6683096,"HCT116, extracted nuclei, cell 068",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 068",GPL28038,DNBSEQ-G400
+495,SRR22047511,GSM6683097,OTHER,other,GSM6683097,"HCT116, extracted nuclei, cell 069",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 069",GPL28038,DNBSEQ-G400
+496,SRR22047510,GSM6683098,OTHER,other,GSM6683098,"HCT116, extracted nuclei, cell 070",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 070",GPL28038,DNBSEQ-G400
+497,SRR22047509,GSM6683099,OTHER,other,GSM6683099,"HCT116, extracted nuclei, cell 071",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 071",GPL28038,DNBSEQ-G400
+498,SRR22047508,GSM6683100,OTHER,other,GSM6683100,"HCT116, extracted nuclei, cell 072",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 072",GPL28038,DNBSEQ-G400
+499,SRR22047507,GSM6682931,OTHER,other,GSM6682931,"HCT116, live whole cell, cell 005",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 005",GPL28038,DNBSEQ-G400
+500,SRR22047506,GSM6682932,OTHER,other,GSM6682932,"HCT116, live whole cell, cell 006",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 006",GPL28038,DNBSEQ-G400
+501,SRR22047505,GSM6682933,OTHER,other,GSM6682933,"HCT116, live whole cell, cell 007",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 007",GPL28038,DNBSEQ-G400
+502,SRR22047504,GSM6682934,OTHER,other,GSM6682934,"HCT116, live whole cell, cell 008",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 008",GPL28038,DNBSEQ-G400
+503,SRR22047503,GSM6682935,OTHER,other,GSM6682935,"HCT116, live whole cell, cell 009",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 009",GPL28038,DNBSEQ-G400
+504,SRR22047502,GSM6682936,OTHER,other,GSM6682936,"HCT116, live whole cell, cell 010",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 010",GPL28038,DNBSEQ-G400
+505,SRR22047501,GSM6682937,OTHER,other,GSM6682937,"HCT116, live whole cell, cell 011",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 011",GPL28038,DNBSEQ-G400
+506,SRR22047500,GSM6682938,OTHER,other,GSM6682938,"HCT116, live whole cell, cell 012",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 012",GPL28038,DNBSEQ-G400
+507,SRR22047499,GSM6682939,OTHER,other,GSM6682939,"HCT116, live whole cell, cell 013",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 013",GPL28038,DNBSEQ-G400
+508,SRR22047498,GSM6682940,OTHER,other,GSM6682940,"HCT116, live whole cell, cell 014",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 014",GPL28038,DNBSEQ-G400
+509,SRR22047497,GSM6682942,OTHER,other,GSM6682942,"HCT116, live whole cell, cell 015",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 015",GPL28038,DNBSEQ-G400
+510,SRR22047496,GSM6682943,OTHER,other,GSM6682943,"HCT116, live whole cell, cell 016",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 016",GPL28038,DNBSEQ-G400
+511,SRR22047495,GSM6682944,OTHER,other,GSM6682944,"HCT116, live whole cell, cell 017",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 017",GPL28038,DNBSEQ-G400
+512,SRR22047494,GSM6682945,OTHER,other,GSM6682945,"HCT116, live whole cell, cell 018",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 018",GPL28038,DNBSEQ-G400
+513,SRR22047493,GSM6682946,OTHER,other,GSM6682946,"HCT116, live whole cell, cell 019",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 019",GPL28038,DNBSEQ-G400
+514,SRR22047492,GSM6682947,OTHER,other,GSM6682947,"HCT116, live whole cell, cell 020",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 020",GPL28038,DNBSEQ-G400
+515,SRR22047491,GSM6682948,OTHER,other,GSM6682948,"HCT116, live whole cell, cell 021",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 021",GPL28038,DNBSEQ-G400
+516,SRR22047490,GSM6682949,OTHER,other,GSM6682949,"HCT116, live whole cell, cell 022",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 022",GPL28038,DNBSEQ-G400
+517,SRR22047489,GSM6682950,OTHER,other,GSM6682950,"HCT116, live whole cell, cell 023",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 023",GPL28038,DNBSEQ-G400
+518,SRR22047488,GSM6682951,OTHER,other,GSM6682951,"HCT116, live whole cell, cell 024",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 024",GPL28038,DNBSEQ-G400
+519,SRR22047487,GSM6682952,OTHER,other,GSM6682952,"HCT116, live whole cell, cell 025",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 025",GPL28038,DNBSEQ-G400
+520,SRR22047486,GSM6682953,OTHER,other,GSM6682953,"HCT116, live whole cell, cell 026",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 026",GPL28038,DNBSEQ-G400
+521,SRR22047485,GSM6682954,OTHER,other,GSM6682954,"HCT116, live whole cell, cell 027",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 027",GPL28038,DNBSEQ-G400
+522,SRR22047484,GSM6682956,OTHER,other,GSM6682956,"HCT116, live whole cell, cell 028",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 028",GPL28038,DNBSEQ-G400
+523,SRR22047483,GSM6682957,OTHER,other,GSM6682957,"HCT116, live whole cell, cell 029",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 029",GPL28038,DNBSEQ-G400
+524,SRR22047482,GSM6682958,OTHER,other,GSM6682958,"HCT116, live whole cell, cell 030",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 030",GPL28038,DNBSEQ-G400
+525,SRR22047480,GSM6682960,OTHER,other,GSM6682960,"HCT116, live whole cell, cell 032",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 032",GPL28038,DNBSEQ-G400
+526,SRR22047481,GSM6682959,OTHER,other,GSM6682959,"HCT116, live whole cell, cell 031",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 031",GPL28038,DNBSEQ-G400
+527,SRR22047478,GSM6682962,OTHER,other,GSM6682962,"HCT116, live whole cell, cell 034",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 034",GPL28038,DNBSEQ-G400
+528,SRR22047479,GSM6682961,OTHER,other,GSM6682961,"HCT116, live whole cell, cell 033",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 033",GPL28038,DNBSEQ-G400
+529,SRR22047477,GSM6682963,OTHER,other,GSM6682963,"HCT116, live whole cell, cell 035",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 035",GPL28038,DNBSEQ-G400
+530,SRR22047475,GSM6682999,OTHER,other,GSM6682999,"HCT116, live whole cell, cell 069",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 069",GPL28038,DNBSEQ-G400
+531,SRR22047476,GSM6682964,OTHER,other,GSM6682964,"HCT116, live whole cell, cell 036",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 036",GPL28038,DNBSEQ-G400
+532,SRR22047474,GSM6683000,OTHER,other,GSM6683000,"HCT116, live whole cell, cell 070",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 070",GPL28038,DNBSEQ-G400
+533,SRR22047473,GSM6683001,OTHER,other,GSM6683001,"HCT116, live whole cell, cell 071",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 071",GPL28038,DNBSEQ-G400
+534,SRR22047472,GSM6683002,OTHER,other,GSM6683002,"HCT116, live whole cell, cell 072",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 072",GPL28038,DNBSEQ-G400
+535,SRR22047471,GSM6683003,OTHER,other,GSM6683003,"HCT116, live whole cell, cell 073",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 073",GPL28038,DNBSEQ-G400
+536,SRR22047470,GSM6683004,OTHER,other,GSM6683004,"HCT116, live whole cell, cell 074",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 074",GPL28038,DNBSEQ-G400
+537,SRR22047469,GSM6683005,OTHER,other,GSM6683005,"HCT116, live whole cell, cell 075",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 075",GPL28038,DNBSEQ-G400
+538,SRR22047468,GSM6683006,OTHER,other,GSM6683006,"HCT116, live whole cell, cell 076",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 076",GPL28038,DNBSEQ-G400
+539,SRR22047467,GSM6683007,OTHER,other,GSM6683007,"HCT116, live whole cell, cell 077",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 077",GPL28038,DNBSEQ-G400
+540,SRR22047466,GSM6683008,OTHER,other,GSM6683008,"HCT116, live whole cell, cell 078",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 078",GPL28038,DNBSEQ-G400
+541,SRR22047465,GSM6683010,OTHER,other,GSM6683010,"HCT116, live whole cell, cell 079",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 079",GPL28038,DNBSEQ-G400
+542,SRR22047464,GSM6683011,OTHER,other,GSM6683011,"HCT116, live whole cell, cell 080",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 080",GPL28038,DNBSEQ-G400
+543,SRR22047463,GSM6683012,OTHER,other,GSM6683012,"HCT116, live whole cell, cell 081",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 081",GPL28038,DNBSEQ-G400
+544,SRR22047462,GSM6683013,OTHER,other,GSM6683013,"HCT116, live whole cell, cell 082",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 082",GPL28038,DNBSEQ-G400
+545,SRR22047461,GSM6683014,OTHER,other,GSM6683014,"HCT116, live whole cell, cell 083",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 083",GPL28038,DNBSEQ-G400
+546,SRR22047460,GSM6683015,OTHER,other,GSM6683015,"HCT116, live whole cell, cell 084",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 084",GPL28038,DNBSEQ-G400
+547,SRR22047459,GSM6683016,OTHER,other,GSM6683016,"HCT116, live whole cell, cell 085",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 085",GPL28038,DNBSEQ-G400
+548,SRR22047458,GSM6683017,OTHER,other,GSM6683017,"HCT116, live whole cell, cell 086",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 086",GPL28038,DNBSEQ-G400
+549,SRR22047457,GSM6683018,OTHER,other,GSM6683018,"HCT116, live whole cell, cell 087",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 087",GPL28038,DNBSEQ-G400
+550,SRR22047456,GSM6683019,OTHER,other,GSM6683019,"HCT116, live whole cell, cell 088",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 088",GPL28038,DNBSEQ-G400
+551,SRR22047455,GSM6683020,OTHER,other,GSM6683020,"HCT116, live whole cell, cell 089",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 089",GPL28038,DNBSEQ-G400
+552,SRR22047454,GSM6683021,OTHER,other,GSM6683021,"HCT116, live whole cell, cell 090",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 090",GPL28038,DNBSEQ-G400
+553,SRR22047453,GSM6683022,OTHER,other,GSM6683022,"HCT116, live whole cell, cell 091",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 091",GPL28038,DNBSEQ-G400
+554,SRR22047452,GSM6683024,OTHER,other,GSM6683024,"HCT116, live whole cell, cell 092",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, live whole cell, cell 092",GPL28038,DNBSEQ-G400
+555,SRR22047451,GSM6683025,OTHER,other,GSM6683025,"HCT116, extracted nuclei, cell 001",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 001",GPL28038,DNBSEQ-G400
+556,SRR22047450,GSM6683026,OTHER,other,GSM6683026,"HCT116, extracted nuclei, cell 002",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 002",GPL28038,DNBSEQ-G400
+557,SRR22047449,GSM6683027,OTHER,other,GSM6683027,"HCT116, extracted nuclei, cell 003",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 003",GPL28038,DNBSEQ-G400
+558,SRR22047448,GSM6683028,OTHER,other,GSM6683028,"HCT116, extracted nuclei, cell 004",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 004",GPL28038,DNBSEQ-G400
+559,SRR22047447,GSM6683029,OTHER,other,GSM6683029,"HCT116, extracted nuclei, cell 005",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 005",GPL28038,DNBSEQ-G400
+560,SRR22047446,GSM6683030,OTHER,other,GSM6683030,"HCT116, extracted nuclei, cell 006",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 006",GPL28038,DNBSEQ-G400
+561,SRR22047445,GSM6683031,OTHER,other,GSM6683031,"HCT116, extracted nuclei, cell 007",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 007",GPL28038,DNBSEQ-G400
+562,SRR22047443,GSM6683033,OTHER,other,GSM6683033,"HCT116, extracted nuclei, cell 009",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 009",GPL28038,DNBSEQ-G400
+563,SRR22047444,GSM6683032,OTHER,other,GSM6683032,"HCT116, extracted nuclei, cell 008",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 008",GPL28038,DNBSEQ-G400
+564,SRR22047442,GSM6683034,OTHER,other,GSM6683034,"HCT116, extracted nuclei, cell 010",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 010",GPL28038,DNBSEQ-G400
+565,SRR22047441,GSM6683035,OTHER,other,GSM6683035,"HCT116, extracted nuclei, cell 011",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 011",GPL28038,DNBSEQ-G400
+566,SRR22047440,GSM6683036,OTHER,other,GSM6683036,"HCT116, extracted nuclei, cell 012",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 012",GPL28038,DNBSEQ-G400
+567,SRR22047439,GSM6683038,OTHER,other,GSM6683038,"HCT116, extracted nuclei, cell 013",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 013",GPL28038,DNBSEQ-G400
+568,SRR22047438,GSM6683039,OTHER,other,GSM6683039,"HCT116, extracted nuclei, cell 014",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 014",GPL28038,DNBSEQ-G400
+569,SRR22047437,GSM6683040,OTHER,other,GSM6683040,"HCT116, extracted nuclei, cell 015",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 015",GPL28038,DNBSEQ-G400
+570,SRR22047436,GSM6683041,OTHER,other,GSM6683041,"HCT116, extracted nuclei, cell 016",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 016",GPL28038,DNBSEQ-G400
+571,SRR22047435,GSM6683042,OTHER,other,GSM6683042,"HCT116, extracted nuclei, cell 017",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 017",GPL28038,DNBSEQ-G400
+572,SRR22047434,GSM6683043,OTHER,other,GSM6683043,"HCT116, extracted nuclei, cell 018",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 018",GPL28038,DNBSEQ-G400
+573,SRR22047433,GSM6683044,OTHER,other,GSM6683044,"HCT116, extracted nuclei, cell 019",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 019",GPL28038,DNBSEQ-G400
+574,SRR22047432,GSM6683045,OTHER,other,GSM6683045,"HCT116, extracted nuclei, cell 020",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 020",GPL28038,DNBSEQ-G400
+575,SRR22047431,GSM6683046,OTHER,other,GSM6683046,"HCT116, extracted nuclei, cell 021",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 021",GPL28038,DNBSEQ-G400
+576,SRR22047429,GSM6683048,OTHER,other,GSM6683048,"HCT116, extracted nuclei, cell 023",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 023",GPL28038,DNBSEQ-G400
+577,SRR22047430,GSM6683047,OTHER,other,GSM6683047,"HCT116, extracted nuclei, cell 022",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 022",GPL28038,DNBSEQ-G400
+578,SRR22047428,GSM6683049,OTHER,other,GSM6683049,"HCT116, extracted nuclei, cell 024",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 024",GPL28038,DNBSEQ-G400
+579,SRR22047427,GSM6683051,OTHER,other,GSM6683051,"HCT116, extracted nuclei, cell 025",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 025",GPL28038,DNBSEQ-G400
+580,SRR22047426,GSM6683052,OTHER,other,GSM6683052,"HCT116, extracted nuclei, cell 026",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 026",GPL28038,DNBSEQ-G400
+581,SRR22047425,GSM6683053,OTHER,other,GSM6683053,"HCT116, extracted nuclei, cell 027",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 027",GPL28038,DNBSEQ-G400
+582,SRR22047424,GSM6683054,OTHER,other,GSM6683054,"HCT116, extracted nuclei, cell 028",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 028",GPL28038,DNBSEQ-G400
+583,SRR22047423,GSM6683055,OTHER,other,GSM6683055,"HCT116, extracted nuclei, cell 029",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 029",GPL28038,DNBSEQ-G400
+584,SRR22047422,GSM6683056,OTHER,other,GSM6683056,"HCT116, extracted nuclei, cell 030",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 030",GPL28038,DNBSEQ-G400
+585,SRR22047421,GSM6683057,OTHER,other,GSM6683057,"HCT116, extracted nuclei, cell 031",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 031",GPL28038,DNBSEQ-G400
+586,SRR22047420,GSM6683058,OTHER,other,GSM6683058,"HCT116, extracted nuclei, cell 032",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 032",GPL28038,DNBSEQ-G400
+587,SRR22047419,GSM6683059,OTHER,other,GSM6683059,"HCT116, extracted nuclei, cell 033",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 033",GPL28038,DNBSEQ-G400
+588,SRR22047418,GSM6683060,OTHER,other,GSM6683060,"HCT116, extracted nuclei, cell 034",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 034",GPL28038,DNBSEQ-G400
+589,SRR22047417,GSM6683061,OTHER,other,GSM6683061,"HCT116, extracted nuclei, cell 035",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 035",GPL28038,DNBSEQ-G400
+590,SRR22047416,GSM6683062,OTHER,other,GSM6683062,"HCT116, extracted nuclei, cell 036",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 036",GPL28038,DNBSEQ-G400
+591,SRR22047415,GSM6683063,OTHER,other,GSM6683063,"HCT116, extracted nuclei, cell 037",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 037",GPL28038,DNBSEQ-G400
+592,SRR22047414,GSM6683064,OTHER,other,GSM6683064,"HCT116, extracted nuclei, cell 038",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 038",GPL28038,DNBSEQ-G400
+593,SRR22047413,GSM6683065,OTHER,other,GSM6683065,"HCT116, extracted nuclei, cell 039",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 039",GPL28038,DNBSEQ-G400
+594,SRR22047412,GSM6683066,OTHER,other,GSM6683066,"HCT116, extracted nuclei, cell 040",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 040",GPL28038,DNBSEQ-G400
+595,SRR22047411,GSM6683102,OTHER,other,GSM6683102,"HCT116, extracted nuclei, cell 073",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 073",GPL28038,DNBSEQ-G400
+596,SRR22047410,GSM6683103,OTHER,other,GSM6683103,"HCT116, extracted nuclei, cell 074",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 074",GPL28038,DNBSEQ-G400
+597,SRR22047409,GSM6683104,OTHER,other,GSM6683104,"HCT116, extracted nuclei, cell 075",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 075",GPL28038,DNBSEQ-G400
+598,SRR22047408,GSM6683105,OTHER,other,GSM6683105,"HCT116, extracted nuclei, cell 076",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 076",GPL28038,DNBSEQ-G400
+599,SRR22047407,GSM6683106,OTHER,other,GSM6683106,"HCT116, extracted nuclei, cell 077",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 077",GPL28038,DNBSEQ-G400
+600,SRR22047406,GSM6683107,OTHER,other,GSM6683107,"HCT116, extracted nuclei, cell 078",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 078",GPL28038,DNBSEQ-G400
+601,SRR22047405,GSM6683108,OTHER,other,GSM6683108,"HCT116, extracted nuclei, cell 079",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 079",GPL28038,DNBSEQ-G400
+602,SRR22047404,GSM6683109,OTHER,other,GSM6683109,"HCT116, extracted nuclei, cell 080",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 080",GPL28038,DNBSEQ-G400
+603,SRR22047403,GSM6683110,OTHER,other,GSM6683110,"HCT116, extracted nuclei, cell 081",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 081",GPL28038,DNBSEQ-G400
+604,SRR22047402,GSM6683111,OTHER,other,GSM6683111,"HCT116, extracted nuclei, cell 082",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 082",GPL28038,DNBSEQ-G400
+605,SRR22047401,GSM6683112,OTHER,other,GSM6683112,"HCT116, extracted nuclei, cell 083",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 083",GPL28038,DNBSEQ-G400
+606,SRR22047400,GSM6683113,OTHER,other,GSM6683113,"HCT116, extracted nuclei, cell 084",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 084",GPL28038,DNBSEQ-G400
+607,SRR22047399,GSM6683115,OTHER,other,GSM6683115,"HCT116, extracted nuclei, cell 085",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 085",GPL28038,DNBSEQ-G400
+608,SRR22047398,GSM6683116,OTHER,other,GSM6683116,"HCT116, extracted nuclei, cell 086",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 086",GPL28038,DNBSEQ-G400
+609,SRR22047397,GSM6683117,OTHER,other,GSM6683117,"HCT116, extracted nuclei, cell 087",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 087",GPL28038,DNBSEQ-G400
+610,SRR22047396,GSM6683118,OTHER,other,GSM6683118,"HCT116, extracted nuclei, cell 088",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 088",GPL28038,DNBSEQ-G400
+611,SRR22047395,GSM6683119,OTHER,other,GSM6683119,"HCT116, extracted nuclei, cell 089",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 089",GPL28038,DNBSEQ-G400
+612,SRR22047394,GSM6683120,OTHER,other,GSM6683120,"HCT116, extracted nuclei, cell 090",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 090",GPL28038,DNBSEQ-G400
+613,SRR22047393,GSM6683121,OTHER,other,GSM6683121,"HCT116, extracted nuclei, cell 091",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 091",GPL28038,DNBSEQ-G400
+614,SRR22047392,GSM6683122,OTHER,other,GSM6683122,"HCT116, extracted nuclei, cell 092",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 092",GPL28038,DNBSEQ-G400
+615,SRR22047391,GSM6683123,OTHER,other,GSM6683123,"HCT116, extracted nuclei, cell 093",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 093",GPL28038,DNBSEQ-G400
+616,SRR22047390,GSM6683124,OTHER,other,GSM6683124,"HCT116, extracted nuclei, cell 094",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 094",GPL28038,DNBSEQ-G400
+617,SRR22047389,GSM6683125,OTHER,other,GSM6683125,"HCT116, extracted nuclei, cell 095",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 095",GPL28038,DNBSEQ-G400
+618,SRR22047388,GSM6683126,OTHER,other,GSM6683126,"HCT116, extracted nuclei, cell 096",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 096",GPL28038,DNBSEQ-G400
+619,SRR22047387,GSM6683127,OTHER,other,GSM6683127,"HCT116, extracted nuclei, cell 097",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 097",GPL28038,DNBSEQ-G400
+620,SRR22047386,GSM6683129,OTHER,other,GSM6683129,"HCT116, extracted nuclei, cell 098",cell line: HCT-116,other,transcriptomic,OTHER,"HCT116, extracted nuclei, cell 098",GPL28038,DNBSEQ-G400
