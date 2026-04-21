@@ -11,8 +11,8 @@ from alphagenome.models import dna_client
 from tqdm import tqdm
 
 '''
-Runs the AlphaGenome API and saves binned RNA-seq feature vectors alongside
-ground truth expression labels. Intended as input to a decoder that maps
+Runs the AlphaGenome API and saves RNA-seq feature vectors alongside ground
+truth expression labels. Intended as input to a decoder that maps
 (sequence_features, cell_type_embedding) -> scalar expression.
 
 API calls are deduplicated: cell types sharing the same ontology term (e.g.,
@@ -20,17 +20,23 @@ unsupported cell types falling back to the organ-level UBERON term) share one
 API call per gene. Calls are parallelized with --workers concurrent threads
 (AlphaGenome is a remote API so speedup comes from concurrent requests, not GPU).
 
+Features are saved at full resolution (BINS=8192). Downstream binning and
+compression are intentionally left to the decoder/training pipeline so that
+bin count can be tuned without re-running expensive API calls.
+
 Output: output/{organ}_{assay}_alphagenome_features.npz
-    features        float32 [n_cell_types, n_genes, n_bins]
+    features        float32 [n_cell_types, n_genes, BINS]  log1p mean-pooled
     labels          float32 [n_cell_types, n_genes]
     gene_ids        str     [n_genes]
     cell_type_ids   str     [n_cell_types]
     ontology_terms  str     [n_cell_types]
 
 Examples:
-uv run python3 src/alphagenome_encoder.py --organ lung --assay 10X --max_genes 500 --bins 1024 --workers 8
-uv run python3 src/alphagenome_encoder.py --organ lung --assay 10X --bins 1024 --workers 8
+uv run python3 src/alphagenome_encoder.py --organ lung --assay 10X --workers 8 --max_genes 10000
+uv run python3 src/alphagenome_encoder.py --organ lung --assay 10X --workers 8
 '''
+
+BINS = 8192  # Save at full resolution; downstream code handles further compression
 
 # Global variables
 INPUT_DIR = 'data/processed'
@@ -41,7 +47,6 @@ def parse_args():
     parser.add_argument('--organ', required=True)
     parser.add_argument('--assay', required=True)
     parser.add_argument('--max_genes', type=int, default=None)
-    parser.add_argument('--bins', type=int, default=512)
     parser.add_argument('--workers', type=int, default=4, help='Number of concurrent API request threads.')
     return parser.parse_args()
 
@@ -63,10 +68,10 @@ def filter_rna_seq_output(rna_seq, interval):
     if rna_seq.num_tracks > 1: rna_seq = rna_seq.filter_tracks([row['Assay title'] == 'polyA plus RNA-seq' for _, row in rna_seq.metadata.iterrows()])
     return rna_seq
 
-def bin_track(values, n):
-    # Mean-pool the full 1MB track into n bins; n must divide 2^20 (e.g. 128, 256, 512, 1024)
+def bin_track(values):
+    # Mean-pool the full 1MB track into bins (BINS must divide 2^20)
     values = values.flatten().astype(np.float32)[:2**20]
-    binned = values.reshape(n, 2**20 // n).mean(axis=1)
+    binned = values.reshape(BINS, 2**20 // BINS).mean(axis=1)
     return np.log1p(binned)  # Log-transform (helps with ML training)
 
 def main():
@@ -80,11 +85,11 @@ def main():
     print('Loading input data...')
     df = pd.read_parquet(f'{INPUT_DIR}/{args.organ}_{args.assay}_processed.parquet')
     if args.max_genes is not None: df = df.iloc[:args.max_genes]
-    df = df.reset_index(drop=True)  # Ensure 0-based integer index for array assignment
+    df = df.reset_index(drop=True)
 
     cell_types = [col for col in df.columns if col.startswith('CL:')]
     gene_ids = df['gene_id'].tolist()
-    n_cell_types, n_genes, n_bins = len(cell_types), len(df), args.bins
+    n_cell_types, n_genes, n_bins = len(cell_types), len(df), BINS
 
     # Map each cell type to its ontology term, falling back to organ-level if unsupported
     organ_term = model_uberon_ontology_terms[args.organ]
@@ -97,12 +102,12 @@ def main():
 
     n_unique_terms = len(term_to_cell_types)
     n_total_calls = n_unique_terms * n_genes
-    print(f'Cell types: {n_cell_types} | Unique ontology terms: {n_unique_terms} | Genes: {n_genes} | Bins: {n_bins}')
+    print(f'Cell types: {n_cell_types} | Unique ontology terms: {n_unique_terms} | Genes: {n_genes} | Raw bins: {n_bins}')
     print(f'Total API calls: {n_total_calls:,} (vs {n_cell_types * n_genes:,} without deduplication) | Workers: {args.workers}')
 
     # Pre-allocate output arrays
-    features = np.zeros((n_cell_types, n_genes, n_bins), dtype=np.float32)  # AlphaGenome binned tracks
-    labels   = np.zeros((n_cell_types, n_genes), dtype=np.float32)          # Ground truth pseudobulk expression
+    features = np.zeros((n_cell_types, n_genes, n_bins), dtype=np.float32) # AlphaGenome binned tracks
+    labels   = np.zeros((n_cell_types, n_genes), dtype=np.float32) # Ground truth pseudobulk expression
     ct_index = {ct: i for i, ct in enumerate(cell_types)}
 
     # Pre-fill labels (no API needed — read directly from the processed parquet)
@@ -120,7 +125,7 @@ def main():
                     ontology_terms=[term],
                 )
                 rna_seq = filter_rna_seq_output(output.rna_seq, interval)
-                return term, gene_idx, bin_track(rna_seq.values, n_bins)
+                return term, gene_idx, bin_track(rna_seq.values)
             except grpc.RpcError as e:
                 if e.code() == grpc.StatusCode.RESOURCE_EXHAUSTED:
                     time.sleep(2 ** attempt)  # 1, 2, 4, 8, 16, 32 seconds
@@ -155,7 +160,6 @@ def main():
         gene_ids=np.array(gene_ids),
         cell_type_ids=np.array(cell_types),
         ontology_terms=np.array([ontology_terms[ct] for ct in cell_types]),
-        bins=np.array(args.bins),
     )
     print(f'Done. features={features.shape}, labels={labels.shape}')
 
