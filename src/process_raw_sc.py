@@ -39,8 +39,7 @@ uv run python3 src/process_raw_sc.py \\
     --input Lung_TSP1_30_version2d_10X_smartseq_scvi_Nov122024.h5ad \\
     --organ lung \\
     --assay 10X \\
-    --min-cells 20 \\
-    --gcs
+    --min-cells 20
 """
 
 import argparse

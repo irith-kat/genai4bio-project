@@ -20,9 +20,8 @@ unsupported cell types falling back to the organ-level UBERON term) share one
 API call per gene. Calls are parallelized with --workers concurrent threads
 (AlphaGenome is a remote API so speedup comes from concurrent requests, not GPU).
 
-Features are saved at full resolution (BINS=8192). Downstream binning and
-compression are intentionally left to the decoder/training pipeline so that
-bin count can be tuned without re-running expensive API calls.
+Features are saved at 2048 bp resolution (BINS=512). Each bin is the mean
+of 2048 bp of the 1 Mbp window, log1p-transformed.
 
 Output: output/{organ}_{assay}_alphagenome_features.npz
     features        float32 [n_cell_types, n_genes, BINS]  log1p mean-pooled
@@ -36,11 +35,11 @@ uv run python3 src/alphagenome_encoder.py --organ lung --assay 10X --workers 8 -
 uv run python3 src/alphagenome_encoder.py --organ lung --assay 10X --workers 8
 '''
 
-BINS = 8192  # Save at full resolution; downstream code handles further compression
+BINS = 512  # 2^20 bp / 2048 bp per bin = 512 bins
 
 # Global variables
 INPUT_DIR = 'data/processed'
-OUTPUT_DIR = 'output'
+OUTPUT_DIR = 'data/ag'
 
 def parse_args():
     parser = argparse.ArgumentParser()
@@ -69,12 +68,13 @@ def filter_rna_seq_output(rna_seq, interval):
     return rna_seq
 
 def bin_track(values):
-    # Mean-pool the full 1MB track into bins (BINS must divide 2^20)
+    # Mean-pool the full 1 Mbp track into 512 bins of 2048 bp each
     values = values.flatten().astype(np.float32)[:2**20]
     binned = values.reshape(BINS, 2**20 // BINS).mean(axis=1)
     return np.log1p(binned)  # Log-transform (helps with ML training)
 
 def main():
+    print("Initializing AlphaGenome client...")
     model = dna_client.create(api_key=os.getenv('ALPHAGENOME_API_KEY'))
     with open('data/metadata/alphagenome_organ_map.json', 'r') as f:
         model_uberon_ontology_terms = json.load(f)
