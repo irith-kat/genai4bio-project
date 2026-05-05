@@ -2,6 +2,12 @@
 
 ### Group Members: Jack Hwang, Irith Katiyar, Rohan Krishnamurthi, Liza Lopatina
 
+## Model Architecture
+
+scAlphaGenome is a two-channel encoder-decoder model comprised of a sequence encoder, a cell type encoder, and a multimodal decoder. Each encoder consists of a frozen model (AlphaGenome and scVI, respectively) and a learnable projection layer or network. The decoder is comprised of a cross-attention-based fusion network and a small MLP that yields a single expression value as output. Our model architecture is illustrated below:
+
+![](figures/model.png)
+
 ## Setup
 
 ### 1. Installing dependencies
@@ -107,7 +113,7 @@ uv run python3 src/process_pseudobulk.py \
     --assay 10X
 ```
 
-The output `.parquet` file is saved locally to `data/processed/`. (GCS uploading TBD.)
+The output `.parquet` file is saved locally to `data/processed/`.
 
 ## Metadata Processing Pipeline
 
@@ -129,4 +135,37 @@ uv run python3 src/process_metadata.py \
     --assay 10X
 ```
 
-The output `.json` and `.txt` files are saved locally to `data/metadata/`. (GCS uploading TBD.)
+The output `.json` and `.txt` files are saved locally to `data/metadata/`.
+
+
+## Modeling Pipeline 
+
+### 1. Sequence encoding via AlphaGenome
+
+Here is an example of how to run the frozen AlphaGenome encoder on the processed data:
+
+```bash
+uv run python3 src/alphagenome_encoder_model.py --organ lung --assay 10X --workers 8 --max_genes 50000
+```
+
+If you want to run the baseline version of our model, replace `alphagenome_encoder_model.py` with `alphagenome_encoder_base.py`.
+
+Outputs are saved locally to `data\ag`.
+
+Note: before running this, you must have `ALPHAGENOME_API_KEY` set in your `env` file.
+
+### 2. Cell type encoding via scVI
+
+Here is an example of how to extract and aggregate the cell-type scVI vectors from the raw Tabula Sapiens data:
+
+```bash
+uv run python3 src/cell_type_encoder.py --input Lung_TSP1_30_version2d_10X_smartseq_scvi_Nov122024.h5ad --organ lung --assay 10X
+```
+
+Outputs are saved locally to `data\scvi`.
+
+### 3. Multimodal decoding and results analysis
+
+Located in `decoder.ipynb`.
+
+

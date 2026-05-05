@@ -40,7 +40,7 @@ Output: data/ag/{organ}_{assay}_uberon_ag.npz
     resolution_bp   int     bp per bin = 1,048,576 / bins
 
 Usage:
-    uv run python3 src/alphagenome_encoder_eq.py --organ lung --assay 10X --workers 8 --max_genes 50000
+    uv run python3 src/alphagenome_encoder_model.py --organ lung --assay 10X --workers 8 --max_genes 50000
 '''
 
 INPUT_DIR  = 'data/processed'
